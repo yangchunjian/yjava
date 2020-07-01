@@ -2,6 +2,7 @@
 - 思想总结
     - [学习方法总结](infrastructure/学习方法总结.md)
     - [架构设计总结](infrastructure/架构设计思想总结.md)
+    - [顿悟总结](infrastructure/顿悟总结.md)
   
 - 设计模式
     - [第一章节](desgin-pattern/Java面试必备：手写单例模式.md)
