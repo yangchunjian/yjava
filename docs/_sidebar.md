@@ -9,6 +9,7 @@
     - [面试总结](infrastructure/面试总结.md)
     - [技术总结](infrastructure/技术总结.md)
     - [盲点总结](infrastructure/盲点总结.md)
+    - [情商总结](infrastructure/情商总结.md)
 
  
 
