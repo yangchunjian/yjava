@@ -7,10 +7,30 @@
   <meta name="description" content="杨春建的文档箱">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <script>
+      var _hmt = _hmt || [];
+      (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?bd2f5906f52335301b2678662fcaa1a6";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+      })();
+  </script>
+
 </head>
 <body>
 <div id="app">Please wait...</div>
 <script>
+
+    var gitalkConfig = {
+        clientID: 'e5196383cc5cbdec6c96',
+        clientSecret: 'b9d9c47edc91d227a3142689eb1c5142eea26203',
+        repo: 'docbook',
+        owner: 'yangchunjian',
+        admin: ["yangchunjian"],
+        distractionFreeMode: false
+    };
     window.$docsify = {
         auto2top: true, //当路线改变时，滚动到屏幕的顶部。
         coverpage: true, //激活封面功能。如果为true，则会从中加载_coverpage.md。
@@ -24,10 +44,11 @@
         name: '杨春建的文档箱',
         search: {
             noData: {
-                '/de-de/': 'Keine Ergebnisse!',
-                '/zh-cn/': '没有结果!',
-                '/': '没有结果!'
+                '/de-de/': '😞Keine Ergebnisse!',
+                '/zh-cn/': '😞没有结果!',
+                '/': '😞没有结果!'
             },
+            depth: 6,
             paths: 'auto',
             placeholder: {
                 '/de-de/': '🔍Suche',
@@ -45,7 +66,30 @@
                         + '\n----\n'
                         + 'Last modified {docsify-updated} '
                         + editHtml
-                })
+                });
+                hook.doneEach(function() {
+                    var label, domObj, main, divEle, gitalk;
+                    label = vm.route.path.split("/").pop();
+                    domObj = Docsify.dom;
+                    main = domObj.getNode("#main");
+
+                    Array.apply(
+                        null,
+                        document.querySelectorAll("div.gitalk-container")
+                    ).forEach(function(ele) {
+                        ele.remove();
+                    });
+
+                    divEle = domObj.create("div");
+                    divEle.id = "gitalk-container-" + label;
+                    divEle.className = "gitalk-container";
+                    divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
+                    domObj.appendTo(domObj.find(".content"), divEle);
+                    gitalk = new Gitalk(
+                        Object.assign(gitalkConfig, { id: !label ? "home" : label })
+                    );
+                    gitalk.render("gitalk-container-" + label);
+                });
             }
         ]
     }
@@ -54,6 +98,8 @@
 <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 <!--上一页、下一页-->
 <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<!--评论-->
+<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
 <!--<script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>-->
 <!--<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>-->
