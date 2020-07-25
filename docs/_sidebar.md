@@ -1,15 +1,16 @@
 
 - 思想总结
-    - [学习总结](infrastructure/学习总结.md)
-    - [架构总结](infrastructure/架构总结.md)
-    - [编码总结](infrastructure/编码总结.md)
-    - [顿悟总结](infrastructure/顿悟总结.md)
-    - [疑问总结](infrastructure/疑问总结.md)
-    - [职场总结](infrastructure/职场总结.md)
-    - [面试总结](infrastructure/面试总结.md)
-    - [技术总结](infrastructure/技术总结.md)
-    - [盲点总结](infrastructure/盲点总结.md)
-    - [情商总结](infrastructure/情商总结.md)
+    - [学习总结](up/学习总结.md)
+    - [架构总结](up/架构总结.md)
+    - [编码总结](up/编码总结.md)
+    - [顿悟总结](up/顿悟总结.md)
+    - [疑问总结](up/疑问总结.md)
+    - [职场总结](up/职场总结.md)
+    - [面试总结](up/面试总结.md)
+    - [技术总结](up/技术总结.md)
+    - [盲点总结](up/盲点总结.md)
+    - [情商总结](up/情商总结.md)
+    - [其它总结](up/other.md)
 
  
 
