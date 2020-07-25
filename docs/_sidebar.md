@@ -1,7 +1,7 @@
 
 - 思想总结
-    - [学习方法总结](infrastructure/学习方法总结.md)
-    - [架构设计总结](infrastructure/架构设计思想总结.md)
+    - [学习总结](infrastructure/学习总结.md)
+    - [架构总结](infrastructure/架构总结.md)
     - [编码总结](infrastructure/编码总结.md)
     - [顿悟总结](infrastructure/顿悟总结.md)
     - [疑问总结](infrastructure/疑问总结.md)
