@@ -2,7 +2,7 @@
 
 ## 盲点记录
 1. ~~JVM~~
-2. HashMap
+2. ~~HashMap~~
 3. 红黑树
 4. ~~ConcurrentHashMap~~
 5. 算法
