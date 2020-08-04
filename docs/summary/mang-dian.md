@@ -32,7 +32,7 @@
 29. ~~数据库隔离级别~~
 30. Spark和Flink
 31. ~~Java NIO~~
-32. Java线程池
+32. ~~Java线程池~~
 
 
 
