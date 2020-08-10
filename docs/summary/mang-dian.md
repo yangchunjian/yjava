@@ -49,7 +49,7 @@
 46. Java线程几个状态之间的转换
 47. Java队列
 48. MySQL慢查询
-49. Java信号量Semaphore
+49. Java信号量Semaphore，栏珊等
 
 
 
