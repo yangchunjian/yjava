@@ -50,6 +50,8 @@
 47. Java队列
 48. MySQL慢查询
 49. Java信号量Semaphore，栏珊等
+50. MyBatis
+
 
 
 
