@@ -10,6 +10,7 @@
     - [技术总结](summary/ji-shu.md)
     - [盲点总结](summary/mang-dian.md)
     - [情商总结](summary/qing-shang.md)
+    - [生活总结](summary/sheng-huo.md)
     - [其它总结](summary/qi-ta.md)
 
  
