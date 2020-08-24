@@ -68,6 +68,7 @@
 65. 线程池核心线程数和最大线程数配置关系
 66. Kafka的rebalance
 67. Kafka的重复消费
+68. 序列化方式，Protobuf实现原理
 
 
 
