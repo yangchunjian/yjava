@@ -75,6 +75,7 @@
 72. ThreadLocal
 73. AtomicLong
 74. HashTable
+75. ConcurrentHashMap
 
 
 
