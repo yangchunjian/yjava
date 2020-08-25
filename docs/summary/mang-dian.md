@@ -69,6 +69,8 @@
 66. Kafka的rebalance
 67. Kafka的重复消费
 68. 序列化方式，Protobuf实现原理
+69. Redis分布式锁、ZooKeeper分布式锁
+
 
 
 
