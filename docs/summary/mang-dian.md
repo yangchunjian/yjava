@@ -71,6 +71,10 @@
 68. 序列化方式，Protobuf实现原理
 69. Redis分布式锁、ZooKeeper分布式锁
 70. CMS收集器、G1收集器
+71. CopyOnWriteArrayList
+72. ThreadLocal
+73. AtomicLong
+74. HashTable
 
 
 
