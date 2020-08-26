@@ -76,6 +76,7 @@
 73. AtomicLong
 74. HashTable
 75. ConcurrentHashMap
+76. LinkedHashMap
 
 
 
