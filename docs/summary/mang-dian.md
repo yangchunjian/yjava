@@ -78,6 +78,12 @@
 75. ConcurrentHashMap
 76. LinkedHashMap
 77. TreeMap
+78. HDFS
+79. Hadoop
+80. 脚本语言和编译语言区别
+81. Redis读写超时了怎么处理，Redis集群的高可用怎么保证
+82. MySQL连接池打满怎么处理
+83. MySQL和Redis数据不一致问题怎么解决
 
 
 
