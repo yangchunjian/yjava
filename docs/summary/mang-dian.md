@@ -89,6 +89,21 @@
 86. Java堆排序
 87. Java线程占多大的内存
 88. 为什么快速排序要比堆排序性能好
+89. Spring的生命周期
+90. G1和CMS的区别
+91. Java线程池死锁
+92. Java内存泄露、溢出
+93. Java悲观锁和乐观锁
+94. Java中stream和parallelstream区别
+95. MySQL事务原子性怎么保证
+96. MySQL主键生成方式有哪些
+96. JVM原理
+97. git rebase和merge区别
+98. Redis 分布式锁避免死锁
+99. Idea编码快捷键
+100. hadoop fs 命令使用
+
+
 
 
 
