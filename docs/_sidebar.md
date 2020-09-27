@@ -16,7 +16,7 @@
 - 程序总结
     - [算法篇](program/suan-fa.md)
     - [框架篇](program/kuang-jia.md)
-    - [存储篇](program/cun-shu.md)
+    - [存储篇](program/cun-chu.md)
 
  
 
