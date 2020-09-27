@@ -10,9 +10,7 @@ public class PuickSort {
 
 
     //arr 需要排序的数组
-
     //low 开始时最左边的索引 = 0
-
     //high 开始时最右边的索引 = arr.length - 1
     public static void quickSort(int[] arr, int low, int high) {
         int i, j, temp, z,y;
@@ -23,7 +21,6 @@ public class PuickSort {
         j = high;//右边哨兵的索引
         //temp就是基准位
         temp = arr[low];//以最左边为 基准位
-
         while (i < j) {
             //先看右边，依次往左递减
             //先从右往左找一个小于 基准位的数
@@ -42,25 +39,19 @@ public class PuickSort {
 
             //如果满足条件则交换
             if (i < j) {
-
                 //z、y 都是临时参数，用于存放 左右哨兵 所在位置的数据
                 z = arr[i];
                 y = arr[j];
-
                 //左右哨兵 交换数据（互相持有对方的数据）
                 arr[i] = y;
                 arr[j] = z;
-
             }
-
         }
-
         //这时 跳出了 “while (i < j) {}”循环
         //说明 i = j 左右在同一位置
         //最后将基准为与i和j相等位置的数字交换
         arr[low] = arr[i];//或 arr[ low] =arr[j];
         arr[i] = temp;//或 arr[ j] =temp;
-
 
         //i = j
         //这时 左半数组<(i或j所在索引的数) < 右半数组
