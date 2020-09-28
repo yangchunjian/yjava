@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>杨春建的文档箱</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="杨春建的文档箱">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-  <link rel="icon" href="./imgs/qin_200x200.jpeg">
-  <script>
-      var _hmt = _hmt || [];
-      (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?bd2f5906f52335301b2678662fcaa1a6";
-          var s = document.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(hm, s);
-      })();
-  </script>
+    <meta charset="UTF-8">
+    <title>杨春建的文档箱</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="杨春建的文档箱">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+    <link rel="icon" href="./imgs/qin_200x200.jpeg">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?bd2f5906f52335301b2678662fcaa1a6";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    <style>
+        .arrow {
+            width: 6px;
+            height: 6px;
+            border-top: 1px solid #999;
+            border-right: 1px solid #999;
+            transform: rotate(45deg);
+            position: absolute;
+            right: 0px;
+        }
+
+    </style>
 
 </head>
 <body>
@@ -82,7 +96,7 @@
             isExpected: true
         },
         plugins: [
-            function(hook, vm) {
+            function (hook, vm) {
                 hook.beforeEach(function (html) {
                     var url = 'https://github.com/yangchunjian/docbook/blob/master/docs/' + vm.route.file
                     var editHtml = '[:memo: Edit Document](' + url + ')\n'
@@ -91,14 +105,15 @@
                         + 'Last modified {docsify-updated} '
                         + editHtml
                 });
-                hook.doneEach(function() {
+                hook.doneEach(function () {
                     //折叠目录
                     document.querySelectorAll(".sidebar-nav > ul > li").forEach(
-                        function(node, index, nodelist) {
+                        function (node, index, nodelist) {
                             var span = document.createElement("span");
                             span.innerHTML = node.firstChild.data;
                             span.style.cursor = "pointer";
-                            span.onclick = function(event) {
+                            span.style.className = "arrow";
+                            span.onclick = function (event) {
                                 var ul = event.target.nextElementSibling;
                                 if (ul.style.display === "none") {
                                     ul.style.display = "block";
@@ -123,7 +138,7 @@
                     Array.apply(
                         null,
                         document.querySelectorAll("div.gitalk-container")
-                    ).forEach(function(ele) {
+                    ).forEach(function (ele) {
                         ele.remove();
                     });
 
@@ -133,7 +148,7 @@
                     divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
                     domObj.appendTo(domObj.find(".content"), divEle);
                     gitalk = new Gitalk(
-                        Object.assign(gitalkConfig, { id: !label ? "home" : label })
+                        Object.assign(gitalkConfig, {id: !label ? "home" : label})
                     );
                     gitalk.render("gitalk-container-" + label);
                 });
