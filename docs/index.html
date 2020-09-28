@@ -111,7 +111,7 @@
                     document.querySelectorAll(".sidebar-nav > ul > li").forEach(
                         function (node, index, nodelist) {
                             var span = document.createElement("span");
-                            span.innerHTML = node.firstChild.data + '<i style="float: right">&gt;</i>';
+                            span.innerHTML = node.firstChild.data + '<i>&gt;</i>';
                             span.style.cursor = "pointer";
                             //span.style.className = "arrow";
                             span.onclick = function (event) {
