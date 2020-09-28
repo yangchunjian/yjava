@@ -42,6 +42,9 @@
         mergeNavbar: true,//Navbar将在小屏幕上与侧边栏合并。
         maxLevel: 4,//最大的内容表级别。
         subMaxLevel: 2,//在自定义边栏中添加目录（TOC）。
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md'
+        },
         ga: 'UA-106147152-1',
         name: '杨春建的文档箱',
         search: {
@@ -122,7 +125,6 @@
                     document.querySelectorAll(".sidebar-nav > ul > li").forEach(
                         function(node, index, nodelist) {
                             var span = document.createElement("span");
-                            console.log("##"+node.firstChild);
                             span.innerHTML = node.firstChild.data;
                             span.style.cursor = "pointer";
                             span.onclick = function(event) {
