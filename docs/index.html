@@ -122,6 +122,7 @@
                     document.querySelectorAll(".sidebar-nav > ul > li").forEach(
                         function(node, index, nodelist) {
                             var span = document.createElement("span");
+                            console.log("##"+node.firstChild);
                             span.innerHTML = node.firstChild.data;
                             span.style.cursor = "pointer";
                             span.onclick = function(event) {
