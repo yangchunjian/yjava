@@ -12,7 +12,6 @@
     - [情商总结](summary/qing-shang.md)
     - [生活总结](summary/sheng-huo.md)
     - [其它总结](summary/qi-ta.md)
-
 * 程序总结
     - [算法篇](program/suan-fa.md)
     - [框架篇](program/kuang-jia.md)
