@@ -13,6 +13,7 @@
     - [恋爱总结](summary/lian-ai.md)
     - [婚姻总结](summary/hun-yin.md)
     - [生活总结](summary/sheng-huo.md)
+    - [贷款总结](summary/dai-kuan.md)
     - [其它总结](summary/qi-ta.md)
 * 程序总结
     - [算法篇](program/suan-fa.md)
