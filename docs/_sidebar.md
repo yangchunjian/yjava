@@ -7,6 +7,7 @@
     - [疑问总结](summary/yi-wen.md)
     - [职场总结](summary/zhi-chang.md)
     - [面试总结](summary/mian-shi.md)
+    <!--- - [求职总结](summary/qiu-zhi.md)-->
     - [技术总结](summary/ji-shu.md)
     - [盲点总结](summary/mang-dian.md)
     - [情商总结](summary/qing-shang.md)
