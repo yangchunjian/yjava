@@ -38,11 +38,12 @@
 3. Springboot，一个类里，Controller中有autowired修饰的service成员变量，当两个用户请求时，serveice对象有几个？有线程安全风险么？有什么指导原则来规避线程风险？@component类里两个方法，写这两个方法有什么要注意的么？什么时候要考虑同步的问题，什么时候不需要考虑同步的问题？
 4. 手写一个线程安全的单例模式，双重检验加锁，为什么成员变量instance要声明为volatile？两个线程同时执行getInstance时会发生什么？Synchronized是自旋锁么？ 
 5. 多线程，类里有两个方法，一个方法m1是static Synchronized的，另一个方法m2是Synchronized的，有两个线程，t1,t2,当t1执行m1，t2执行m2时，有线程风险么？
-6. 设计类似实现StringBuilder的append方法和toString()方法，你是第一个作者，使得toString()方法比String1+String2字符串拼接方式更高效，String1+String2的执行流程？
+6. 设计类似实现StringBuilder的append方法和toString()方法，你是第一个作者，使得toString()方法比String1+String2字符串拼接方式更高效，String1+String2的执行流程及劣势？（是大量开辟内存空间，然后大量内存拷贝导致的性能差异）
 
 
     面试总结：
         1. 知识理解后记忆，该死记硬背的死记硬背，该理解记忆的理解记忆
         2. 请教面试官，引导面试官回答自己不会的点
-
+        3. 接到新需求，先分析需求的问题，然后想一个数据结构解决问题，最后再把它实现
+        
 
