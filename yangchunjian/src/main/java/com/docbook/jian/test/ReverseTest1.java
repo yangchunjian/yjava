@@ -40,6 +40,7 @@ public class ReverseTest1 {
     static int doData(String colName) {
         double ret = 0;
         char[] ch = colName.toCharArray();
+//        int[] j = new int[10];
         for(int i=0;i<ch.length;i++){
             int temp = (ch[i]-'A');
 //            ret = ret + temp * (26 ^(ch.length-i-1));
