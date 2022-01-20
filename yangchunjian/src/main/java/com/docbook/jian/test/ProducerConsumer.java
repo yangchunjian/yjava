@@ -59,6 +59,41 @@ public class ProducerConsumer {
     }
 
 
+    public void produce1() {
+
+        while (true) {
+            if (deque.size() < MAX_COUNT) {
+                synchronized (deque) {
+                    deque.addLast(1);//生产1个
+                    System.out.println("生产1个,当前数量" + deque.size());
+                }
+
+            } else {
+                System.out.println("队列满了,当前数量" + deque.size());
+            }
+
+        }
+    }
+
+
+    public void consume1() {
+
+        while (true) {
+            if (deque.size() > 0) {
+                synchronized (deque) {
+                    deque.pollFirst();
+                    System.out.println("消费1个,当前数量" + deque.size());
+                }
+            } else {
+                System.out.println("队列空了,当前数量" + deque.size());
+
+            }
+
+        }
+
+    }
+
+
     public static void main(String[] args) {
 
 
@@ -69,7 +104,8 @@ public class ProducerConsumer {
 
                 @Override
                 public void run() {
-                    producerConsumer.consume();
+                    producerConsumer.consume1();
+//                    producerConsumer.consume();
                 }
             }.start();
 
@@ -80,7 +116,8 @@ public class ProducerConsumer {
             new Thread("thread-producer" + i) {
                 @Override
                 public void run() {
-                    producerConsumer.produce();
+                    producerConsumer.produce1();
+//                    producerConsumer.produce();
                 }
             }.start();
         }
