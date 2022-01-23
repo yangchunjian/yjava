@@ -1,15 +1,17 @@
 package com.docbook.jian.test;
 
+import java.util.PriorityQueue;
+
 /**
  * @author Yang Chunjian
  * @email 1091938307@qq.com
  * @created 2022-01-10
  * @timed 15:16
- * 合并两个有序链表
+ * 合并K个有序链表
  * 0->1->2->4->5->null
  * 3->6->7->null
  */
-public class MergeTwoLists {
+public class MergeKLists {
     public static void main(String[] args) {
         ListNode node4 = new ListNode(5,null);
         ListNode node3 = new ListNode(4,node4);
@@ -23,36 +25,36 @@ public class MergeTwoLists {
         ListNode node10 = new ListNode(3,node11);
 
         System.out.println("node0="+node0.toString());
-        ListNode ret = mergeTwoLists(node0,node10);
+        ListNode[] nodeList = {node0,node10};
+
+        ListNode ret = mergeKLists(nodeList);
         System.out.println(";ret="+ret.toString());
 
 
     }
 
-    static ListNode mergeTwoLists(ListNode l1, ListNode l2){
-        ListNode p1 = l1;
-        ListNode p2 = l2;
+    static ListNode mergeKLists(ListNode[] nodeList){
+
         ListNode dummy = new ListNode(-1,null);
         ListNode p = dummy;
-
-        while (p1!=null && p2!=null){
-            if(p1.element>p2.element){
-                p.next = p2;
-                p2 = p2.next;
-            }else {
-                p.next = p1;
-                p1 = p1.next;
+        PriorityQueue<ListNode> pq = new PriorityQueue<>(nodeList.length,(a,b)->(a.element-b.element));
+        for(ListNode node :nodeList){
+            if(node!=null){
+                pq.add(node);
             }
+        }
+
+        while (!pq.isEmpty()){
+            ListNode node = pq.poll();
+            p.next = node;
+            if(node.next!=null){
+                pq.add(node.next);
+            }
+            // p指针不断向前
             p = p.next;
         }
 
-        if(p1!=null){
-            p.next = p1;
-        }
-        if(p2!=null){
-            p.next = p2;
 
-        }
         return dummy.next;
     }
 
