@@ -39,7 +39,7 @@ public class DeleteDuplicatesListNode {
             }
             fast = fast.next;
         }
-
+//        slow.next = null;//最终指向null
         return head;
 
 
