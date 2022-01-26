@@ -57,7 +57,7 @@
 54. 死锁
 55. 归并排序
 56. 快速排序
-57. synchronized原理
+57. ~~synchronized原理~~
 58. MQ的消息怎么保证不丢失
 59. 一个URL到Controller的整个过程是怎么样的
 60. HTTP与HTTPS的区别
