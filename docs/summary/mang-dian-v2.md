@@ -51,7 +51,7 @@
 48. ~~MySQL慢查询~~
 49. Java信号量Semaphore，栏珊等
 50. MyBatis
-51. SpringBoot  
+51. ~~SpringBoot~~  
 52. SpringJPA  
 53. MySQL慢查询
 54. 死锁
@@ -121,6 +121,8 @@
 117. 垃圾收集器G1的回收过程
 118. Spring循环依赖问题怎么解决
 119. MySQL MVCC乐观版本并发控制解决了什么问题
+120. Zookeeper面试题
+121. 
 
 
 
