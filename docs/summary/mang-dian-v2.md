@@ -62,7 +62,7 @@
 59. 一个URL到Controller的整个过程是怎么样的
 60. HTTP与HTTPS的区别
 61. TCP拥塞控制
-62. 常用端口号
+62. ~~常用端口号~~
 63. ES优化方法
 64. Http响应码为0
 65. 线程池核心线程数和最大线程数配置关系
@@ -90,7 +90,7 @@
 87. Java线程占多大的内存
 88. 为什么快速排序要比堆排序性能好
 89. Spring的生命周期
-90. G1和CMS的区别
+90. ~~G1和CMS的区别~~
 91. Java线程池死锁
 92. Java内存泄露、溢出
 93. Java悲观锁和乐观锁
@@ -108,21 +108,40 @@
 104. RPC实现
 105. AQS
 106. netty4和netty5区别
-107. Elasticsearch与关系数据库的相关术语的对应关系
+107. ~~Elasticsearch与关系数据库的相关术语的对应关系~~
 108. 进程间通信的方式
 109. Linux难点命令
-110. redis为什么快
+110. ~~redis为什么快~~
 111. redis地理空间Geospatial
 112. Linux命令面试题
 113. 操作系统常见面试题总结
-114. 各种服务常用端口号
+114. ~~各种服务常用端口号~~
 115. Java基础知识
 116. idea远程调试
-117. 垃圾收集器G1的回收过程
-118. Spring循环依赖问题怎么解决
+117. ~~垃圾收集器G1的回收过程~~
+118. ~~Spring循环依赖问题怎么解决~~
 119. MySQL MVCC乐观版本并发控制解决了什么问题
 120. Zookeeper面试题
-121. 
+
+121. JVM 
+122. 多线程 
+123. MySQL
+124. Elasticsearch 
+125. Redis
+126. Spring 
+127. SpringBoot
+128. SpringCloud
+129. Java
+130. ZooKeeper
+131. Linux
+132. Kafka
+133. Spark
+134. Flink
+135. Netty
+136. MyBatis
+137. Hadoop
+138. Web
+
 
 
 
