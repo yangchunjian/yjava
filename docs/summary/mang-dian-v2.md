@@ -68,7 +68,7 @@
 65. ~~线程池核心线程数和最大线程数配置关系~~
 66. ~~Kafka的rebalance~~
 67. ~~Kafka的重复消费~~
-68. 序列化方式，Protobuf实现原理
+68. ~~序列化方式，Protobuf实现原理~~
 69. ~~Redis分布式锁、ZooKeeper分布式锁~~
 70. ~~CMS收集器、G1收集器~~
 71. ~~CopyOnWriteArrayList~~
@@ -81,46 +81,46 @@
 78. HDFS
 79. Hadoop
 80. ~~脚本语言和编译语言区别~~
-81. Redis读写超时了怎么处理，Redis集群的高可用怎么保证
-82. MySQL连接池打满怎么处理
-83. MySQL和Redis数据不一致问题怎么解决
+81. ~~Redis读写超时了怎么处理，Redis集群的高可用怎么保证~~
+82. ~~MySQL连接池打满怎么处理~~
+83. ~~MySQL和Redis数据不一致问题怎么解决~~
 84. ~~Java线程模型~~
-85. Java线程死锁
-86. Java堆排序
-87. Java线程占多大的内存
-88. 为什么快速排序要比堆排序性能好
+85. ~~Java线程死锁~~
+86. ~~Java堆排序~~
+87. ~~Java线程占多大的内存~~
+88. ~~为什么快速排序要比堆排序性能好~~
 89. ~~Spring的生命周期~~
 90. ~~G1和CMS的区别~~
-91. Java线程池死锁
-92. Java内存泄露、溢出
-93. Java悲观锁和乐观锁
-94. Java中stream和parallelstream区别
-95. MySQL事务原子性怎么保证
-96. MySQL主键生成方式有哪些
-96. JVM原理
-97. git rebase和merge区别
-98. Redis 分布式锁避免死锁
-99. Idea编码快捷键
-100. hadoop fs 命令使用
-101. SpringBoot有什么特性
-102. MySQL如何解决幻读？
-103. Netty
-104. RPC实现
-105. AQS
-106. netty4和netty5区别
+91. ~~Java线程池死锁~~
+92. ~~Java内存泄露、溢出~~
+93. ~~Java悲观锁和乐观锁~~
+94. ~~Java中stream和parallelstream区别~~
+95. ~~MySQL事务原子性怎么保证~~
+96. ~~MySQL主键生成方式有哪些~~
+96. ~~JVM原理~~
+97. ~~git rebase和merge区别~~
+98. ~~Redis 分布式锁避免死锁~~
+99. ~~Idea编码快捷键~~
+100. ~~hadoop fs 命令使用~~
+101. ~~SpringBoot有什么特性~~
+102. ~~MySQL如何解决幻读？~~
+103. ~~Netty~~
+104. ~~RPC实现~~
+105. ~~AQS~~
+106. ~~netty4和netty5区别~~
 107. ~~Elasticsearch与关系数据库的相关术语的对应关系~~
-108. 进程间通信的方式
-109. Linux难点命令
+108. ~~进程间通信的方式~~
+109. ~~Linux难点命令~~
 110. ~~redis为什么快~~
 111. redis地理空间Geospatial
-112. Linux命令面试题
+112. ~~Linux命令面试题~~
 113. 操作系统常见面试题总结
 114. ~~各种服务常用端口号~~
 115. Java基础知识
 116. idea远程调试
 117. ~~垃圾收集器G1的回收过程~~
 118. ~~Spring循环依赖问题怎么解决~~
-119. MySQL MVCC乐观版本并发控制解决了什么问题
+119. ~~MySQL MVCC乐观版本并发控制解决了什么问题~~
 120. Zookeeper面试题
 
 121. JVM 
