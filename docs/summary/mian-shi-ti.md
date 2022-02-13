@@ -317,7 +317,7 @@
 6. Elasticsearch的分片？应用场景有哪些？全文检索？ES结果集的默认配置多少条数据(1万条限制，怎么回事)？
 7. Elasticsearch业内替代方案(clickhouse)？
 8. 最近两家公司离职原因？期望想找个什么样的？
-9. Linux下服务管理，Nginx的生命周期管理，Systemd，Systemctl，开机启动？farewelld？Service?运维技术？ctl？容器？
+9. Linux下服务管理，Nginx的生命周期管理，Systemd，Systemctl，开机启动？Firewalld？Service?运维技术？ctl？容器？
 10. Linux端口占用命令？网络的？正则表达式？找文件怎么找？grep？容器镜像制作？docker？打包镜像？
 11. 目前职级情况？期望情况？
 
