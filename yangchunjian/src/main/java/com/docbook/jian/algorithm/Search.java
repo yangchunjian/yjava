@@ -1,4 +1,4 @@
-package com.docbook.jian.test;
+package com.docbook.jian.algorithm;
 
 /**
  * @author Yang Chunjian
@@ -16,7 +16,7 @@ package com.docbook.jian.test;
 
  result = result * 10 + temp;
  */
-public class Main {
+public class Search {
     public static void main(String[] args) {
 
 

@@ -1,4 +1,4 @@
-package com.docbook.jian.test;
+package com.docbook.jian.algorithm;
 
 /**
  * @author Yang Chunjian
