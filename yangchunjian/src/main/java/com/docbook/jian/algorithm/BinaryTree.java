@@ -150,10 +150,9 @@ public class BinaryTree {
         List l = new ArrayList();
         longestPath(tree.getRoot(), l);
 
-//        for (int i = 0; i<l.size();i++){
-//
-//            System.out.println(l.get(i).getKey());
-//        }
+        for (int i = 0; i<l.size();i++){
+            System.out.println(((Node)l.get(i)).getKey());
+        }
     }
 
 }
