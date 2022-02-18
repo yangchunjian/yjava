@@ -5,6 +5,20 @@ package com.docbook.jian.algorithm;
  * @email 1091938307@qq.com
  * @created 2022-02-16
  * @timed 18:35
+ *             /
+ *
+ *             H
+ *           /  \
+ *          D   G
+ *          /\   \
+ *         B C   F
+ *          \    /
+ *          A   E
+ *              /
+ *              I
+ *
+ *
+ *
  */
 
 import java.util.ArrayList;
@@ -12,13 +26,16 @@ import java.util.List;
 
 public class BinaryTree {
     protected Node root;
-   public BinaryTree(Node root) {
+
+    public BinaryTree(Node root) {
         this.root = root;
     }
-   public Node getRoot() {
+
+    public Node getRoot() {
         return root;
     }
-   /**
+
+    /**
      * 构造树
      */
     public static Node init() {
@@ -33,13 +50,15 @@ public class BinaryTree {
         Node h = new Node('H', d, g);
         return h;// root
     }
-   /**
+
+    /**
      * 访问节点
      */
     public static void visit(Node p) {
         System.out.print(p.getKey() + " ");
     }
-   // 求二叉树的高度
+
+    // 求二叉树的高度
     static int height(Node tree) {
         if (tree == null) {
             return 0;
@@ -50,7 +69,8 @@ public class BinaryTree {
             return leftTreeHeight > rightTreeHeight ? leftTreeHeight + 1 : rightTreeHeight + 1;
         }
     }
-   // 求二叉树的结点总数
+
+    // 求二叉树的结点总数
     static int nodes(Node tree) {
         if (tree == null) {
             return 0;
@@ -60,7 +80,8 @@ public class BinaryTree {
             return left + right + 1;
         }
     }
-   // 求二叉树叶子节点的总数
+
+    // 求二叉树叶子节点的总数
     static int leaf(Node tree) {
         if (tree == null) {
             return 0;
@@ -74,7 +95,8 @@ public class BinaryTree {
             }
         }
     }
-   //将二叉树所有结点的左右子树交换
+
+    //将二叉树所有结点的左右子树交换
     static void swapTree(Node root) {
         if (root != null) {
             Node tmp = root.getLeft();
@@ -84,7 +106,8 @@ public class BinaryTree {
             swapTree(root.getRight());
         }
     }
-   /**
+
+    /**
      * getLeafNodes: 递归求解给定二叉树的所有叶子结点
      *
      * @param root     给定二叉树的根结点
@@ -100,7 +123,8 @@ public class BinaryTree {
             getLeafNodes(root.getRight(), leaflist);
         }
     }
-   /**
+
+    /**
      * longestPath: 递归求解给定二叉树的一条最长路径 如果有多条，输出其中一条
      *
      * @param root        给定二叉树的根结点
@@ -123,7 +147,8 @@ public class BinaryTree {
             }
         }
     }
-   /**
+
+    /**
      * @param args
      */
     public static void main(String[] args) {
@@ -138,8 +163,8 @@ public class BinaryTree {
         System.out.println("一条最长路径");
         List l = new ArrayList();
         longestPath(tree.getRoot(), l);
-       for (int i = 0; i<l.size();i++){
-            System.out.println(((Node)l.get(i)).getKey());
+        for (int i = 0; i < l.size(); i++) {
+            System.out.println(((Node) l.get(i)).getKey());
         }
     }
 
@@ -148,30 +173,38 @@ public class BinaryTree {
 class Node {
     private char key;
     private Node left, right;
-   public Node(char key) {
+
+    public Node(char key) {
         this(key, null, null);
     }
-   public Node(char key, Node left, Node right) {
+
+    public Node(char key, Node left, Node right) {
         this.key = key;
         this.left = left;
         this.right = right;
     }
-   public char getKey() {
+
+    public char getKey() {
         return key;
     }
-   public void setKey(char key) {
+
+    public void setKey(char key) {
         this.key = key;
     }
-   public Node getLeft() {
+
+    public Node getLeft() {
         return left;
     }
-   public void setLeft(Node left) {
+
+    public void setLeft(Node left) {
         this.left = left;
     }
-   public Node getRight() {
+
+    public Node getRight() {
         return right;
     }
-   public void setRight(Node right) {
+
+    public void setRight(Node right) {
         this.right = right;
     }
 

@@ -1,7 +1,5 @@
 package com.docbook.test;
 
-import java.util.LinkedList;
-
 /**
  * @author Yang Chunjian
  * @email 1091938307@qq.com
@@ -23,10 +21,22 @@ public class Test {
         }
 //        StringBuffer sb = new StringBuffer();
 //        sb.
-        LinkedList sb = new LinkedList<>();
-        String ret = Integer.toBinaryString(12);
-        System.out.println("##ret="+ret);
-//        Long.parseUnsignedLong()
-//        ret.cha
+//        LinkedList sb = new LinkedList<>();
+//        String ret = Integer.toBinaryString(12);
+//        System.out.println("##ret="+ret);
+////        Long.parseUnsignedLong()
+////        ret.cha
+//        ret.charAt()
+//        Queue<Integer> q = new LinkedList<>();
+//
+////        q.
+//        List<Character> a = new ArrayList<>();
+//        a.indexOf()
+
+
+        String s ="1234";
+
+        int a = s.charAt(3)-'0';
+        System.out.println("#a="+a);
     }
 }
