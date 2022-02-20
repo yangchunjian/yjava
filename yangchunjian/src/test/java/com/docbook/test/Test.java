@@ -34,9 +34,10 @@ public class Test {
 //        a.indexOf()
 
 
-        String s ="1234";
-
-        int a = s.charAt(3)-'0';
-        System.out.println("#a="+a);
+//        String s ="1234";
+//        s.startsWith();
+//        s.length()
+//        int a = s.charAt(3)-'0';
+//        System.out.println("#a="+a);
     }
 }
