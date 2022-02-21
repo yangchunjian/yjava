@@ -1,8 +1,8 @@
 # 自著篇
 
-## 待上传
+## 程序员的青春不迷茫
 ​```pdf
-path-to-the-pdf-file,,,example: https://wugenqiang.github.io/CS-Books/pdf.js/web/viewer.html?file=../../pdf-book/leetcode-cpp.pdf
+    - [程序员的青春不迷茫](book/程序员的青春不迷茫.pdf)
 ​```
 
 

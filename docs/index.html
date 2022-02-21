@@ -96,6 +96,51 @@
             },
             isExpected: true
         },
+        markdown: {
+            renderer: {
+                code: function(code, lang, base=null) {
+
+                    /* if (lang === "dot") {
+                     return (
+                     '<div class="viz">'+ Viz(code, "SVG")+'</div>'
+                     );
+                     } */
+
+                    var pdf_renderer = function(code, lang, verify) {
+                        function unique_id_generator(){
+                            function rand_gen(){
+                                return Math.floor((Math.random()+1) * 65536).toString(16).substring(1);
+                            }
+                            return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
+                        }
+                        if(lang && !lang.localeCompare('pdf', 'en', {sensitivity: 'base'})){
+                            if(verify){
+                                return true;
+                            }else{
+                                var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
+                                var container_list = new Array();
+                                if(localStorage.getItem('pdf_container_list')){
+                                    container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
+                                }
+                                container_list.push({"pdf_location": code, "div_id": divId});
+                                localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
+                                return (
+                                    '<div style="margin-top:'+ PDF_MARGIN_TOP +'; margin-bottom:'+ PDF_MARGIN_BOTTOM +';" id="'+ divId +'">'
+                                    + '<a href="'+ code + '"> Link </a> to ' + code +
+                                    '</div>'
+                                );
+                            }
+                        }
+                        return false;
+                    }
+                    if(pdf_renderer(code, lang, true)){
+                        return pdf_renderer(code, lang, false);
+                    }
+                    //return this.origin.code.apply(this, arguments);
+                    return (base ? base : this.origin.code.apply(this, arguments));
+                }
+            }
+        },
         plugins: [
             function (hook, vm) {
                 hook.beforeEach(function (html) {
@@ -108,27 +153,27 @@
                 });
                 hook.doneEach(function () {
                     //折叠目录
-                    document.querySelectorAll(".sidebar-nav > ul > li").forEach(
-                        function (node, index, nodelist) {
-                            var span = document.createElement("span");
-                            span.innerHTML = node.firstChild.data + '<i>&gt;</i>';
-                            span.style.cursor = "pointer";
-                            //span.style.className = "arrow";
-                            span.onclick = function (event) {
-                                var ul = event.target.nextElementSibling;
-                                if (ul.style.display === "none") {
-                                    ul.style.display = "block";
-                                } else {
-                                    ul.style.display = "none";
-                                }
-                            };
-                            node.firstChild.replaceWith(span);
-                            node.lastChild.style.display = "none";
-                        });
-                    var active = document.querySelector(".sidebar-nav li.active");
-                    if (active) {
-                        active.parentElement.style.display = "block";
-                    }
+//                    document.querySelectorAll(".sidebar-nav > ul > li").forEach(
+//                        function (node, index, nodelist) {
+//                            var span = document.createElement("span");
+//                            span.innerHTML = node.firstChild.data + '<i>&gt;</i>';
+//                            span.style.cursor = "pointer";
+//                            //span.style.className = "arrow";
+//                            span.onclick = function (event) {
+//                                var ul = event.target.nextElementSibling;
+//                                if (ul.style.display === "none") {
+//                                    ul.style.display = "block";
+//                                } else {
+//                                    ul.style.display = "none";
+//                                }
+//                            };
+//                            node.firstChild.replaceWith(span);
+//                            node.lastChild.style.display = "none";
+//                        });
+//                    var active = document.querySelector(".sidebar-nav li.active");
+//                    if (active) {
+//                        active.parentElement.style.display = "block";
+//                    }
                     //折叠目录
 
                     var label, domObj, main, divEle, gitalk;
@@ -157,51 +202,7 @@
         ]
     }
 
-    markdown: {
-        renderer: {
-            code: function(code, lang, base=null) {
 
-                /* if (lang === "dot") {
-                 return (
-                 '<div class="viz">'+ Viz(code, "SVG")+'</div>'
-                 );
-                 } */
-
-                var pdf_renderer = function(code, lang, verify) {
-                    function unique_id_generator(){
-                        function rand_gen(){
-                            return Math.floor((Math.random()+1) * 65536).toString(16).substring(1);
-                        }
-                        return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
-                    }
-                    if(lang && !lang.localeCompare('pdf', 'en', {sensitivity: 'base'})){
-                        if(verify){
-                            return true;
-                        }else{
-                            var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
-                            var container_list = new Array();
-                            if(localStorage.getItem('pdf_container_list')){
-                                container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
-                            }
-                            container_list.push({"pdf_location": code, "div_id": divId});
-                            localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
-                            return (
-                                '<div style="margin-top:'+ PDF_MARGIN_TOP +'; margin-bottom:'+ PDF_MARGIN_BOTTOM +';" id="'+ divId +'">'
-                                + '<a href="'+ code + '"> Link </a> to ' + code +
-                                '</div>'
-                            );
-                        }
-                    }
-                    return false;
-                }
-                if(pdf_renderer(code, lang, true)){
-                    return pdf_renderer(code, lang, false);
-                }
-                //return this.origin.code.apply(this, arguments);
-                return (base ? base : this.origin.code.apply(this, arguments));
-            }
-        }
-    }
 
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
