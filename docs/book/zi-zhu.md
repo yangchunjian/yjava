@@ -2,7 +2,7 @@
 
 ## 程序员的青春不迷茫
 ​```pdf
-    - [程序员的青春不迷茫](book/程序员的青春不迷茫.pdf)
+https://www.yangchunjian.com/docbook/book/程序员的青春不迷茫.pdf    
 ​```
 
 
