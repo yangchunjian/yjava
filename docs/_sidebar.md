@@ -17,10 +17,10 @@
     <!--- [贷款总结](summary/dai-kuan.md)-->
     - [其它总结](summary/qi-ta.md)
 * 程序总结
+    - [自著篇](book/zi-zhu.md)
     - [算法篇](program/suan-fa.md)
     - [框架篇](program/kuang-jia.md)
     - [存储篇](program/cun-chu.md)
-    - [自著篇](book/zi-zhu.md)
 
     
     
