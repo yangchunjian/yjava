@@ -660,3 +660,63 @@
         1. 框架原理
     
 
+20220301联通群面
+1. 自我介绍
+2. 离职原因？
+3. Push推送业务
+4. Redis查询数据变慢了怎么处理？命令有哪些？Redis慢日志？slowlog包括io往返吗（不包括，只是命令执行时间）
+5. 注册中心用哪些？阿里nacos？application.yml和bootstrap.yml（先执行 ）区别，哪个先执行吗？项目启动后就想执行一条命令呢？（ApplicationRunner，CommandLineRunner）是什么原理？
+6. Springboot自定义拦截器（HandlerInterceptor preHandle postHandle,aftercompletion。WebConfiguration extends WebMvcConfigurerAdapter addInterceptors（InterceptorRegistry））？
+7. JDBC的工具（Hibernate，MyBatis），Hibernate发现返回数据发生变化？（怎么导致的，怎么解决，事务）事务的失效机制？失效场景？@transaction父子覆盖？系统热启动？
+8. MySQL集群模式？MySQL数据类型blog和text区别？单表最多建立多少索引（16个）？数据库中有10条数据，删除后（innodb是从1开始，myisam是从11开始）
+9. SpringBoot配置文件 在程序配置读取时，怎么给静态属性赋值？
+10. == 和 equals区别？
+11. Java IO流有几种？
+12. 读取文件常用的方法？
+13. 数组的list之间的转换？
+14. iterator介绍
+15. session和cookie区别？cookie禁用了session还能用吗？能
+16. SQL注入怎么处理？csrf？
+17. 怎么自定义aop？
+18. MyBatis的分页方式？
+19. MyBatis标签有哪些？a标签用到了b标签，b标签在a标签后面可以吗？（可以）
+20. 你有什么问的吗？
+
+
+    面试总结
+        1. 基础题
+        2. 不怕群面
+
+20220302用友一面
+1. 工作内容
+2. 团队内职责，工作内容
+3. 优化思路，怎么解决
+4. JVM运行效率的分析有什么手段？
+5. 数据持久层用哪些？
+6. 大数据分析技术？
+7. 带人员情况
+8. 未来的发展方向
+9. 你有什么想问的？
+
+
+    面试总结
+        1. 工作内容和项目
+        
+20220302悦刻科技一面
+1. 自我介绍
+2. 介绍一下项目?
+3. HashMap底层原理？1.7和1.8优化点？循环链表？红黑树的时间复杂度？
+4. ArrayList和LinkedList从数据结构上讲有什么区别。十万条数据快速有效加载到内存里用哪种（LinkedList）？
+5. 线程安全的HashMap，ConcurrentHashMap为什么能保证线程安全？
+6. Synchronized锁膨胀的过程？
+7. CAS?会有什么问题？ABA？AtomicStampReference？
+8. SpringBoot自动配置原理？
+9. 线程池怎么使用的？核心参数？拒绝策略？
+10. 分布式锁？加锁和释放锁细节？任务执行过程中，锁过期了，分布式锁失效怎么办？
+11. mysql索引使用场景  
+12. 树中的左节点和右节点的区别？
+13. A/B test分流怎么做？
+
+
+    面试总结
+        1. 不管回答的对与错都保持自信
