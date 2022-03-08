@@ -51,7 +51,7 @@ public class Test {
         Map<String,String> map = new LinkedHashMap<>();
 //        List<String> list = new ArrayList<>();
 
-        String ke1 = i1[0];
+        String ke1 = i1[0].toLowerCase();
         String ke2 = i2[0];
         String[] ke1s = ke1.split(",");
         String[] ke2s = ke2.split(","); //4

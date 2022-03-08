@@ -851,5 +851,23 @@
     面试总结
         1. 原理？
             
+20220308小米二面
+1. 自我介绍
+2. 项目难点，亮点？
+3. 数据量情况？
+4. Redis用法，SDS结构？
+5. Redis持久化？AOF文件越来越大？怎么办？过期策略？
+6. ES怎么用？脑裂？
+7. 动态映射？分词器用哪个？
+8. MQ?Kafka? Rabbit? Kafka不好用的地方？
+9. ThreadLocal？ThreadLocalMap为什么用开放地址寻址法？
+10. AQS？变量为什么用volatile修饰？怎么保证的可见性？EMSI缓存一致性协议保持可见性（E exclusive，M modified，S shared，I invalid）？Local read，Local write，Remote read，Remote write 
+11. 线上jvm相关的问题？
+12. 算法题：快速排序；二分查找；单例；
+13. 你有什么问我的？
+
+
+    面试总结
+        1. 算法题
             
 
