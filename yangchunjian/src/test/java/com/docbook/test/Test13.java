@@ -16,8 +16,8 @@ public class Test13 {
 //    a&1 == 1 奇数
     public static void main(String[] args) {
 //        getBit(456,2);
-        getIntOddEven(233);
-
+//        getIntOddEven(233);
+        System.out.println("##"+ -13%2); //-1
     }
 
 //    private static void getBit(int num, int i){
