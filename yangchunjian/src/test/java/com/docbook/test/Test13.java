@@ -18,6 +18,9 @@ public class Test13 {
 //        getBit(456,2);
 //        getIntOddEven(233);
         System.out.println("##"+ -13%2); //-1
+        Integer a = 100;
+        Integer b = 100;
+        System.out.println("a=b "+(a==b));
     }
 
 //    private static void getBit(int num, int i){
