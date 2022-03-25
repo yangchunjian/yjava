@@ -9,3 +9,4 @@
 [CSDN](https://yangchunjian.blog.csdn.net)
 [文档箱](#积累)
 [亲位网](https://www.dearloc.com)
+[微信号](./imgs/dearlocation.jpeg)
