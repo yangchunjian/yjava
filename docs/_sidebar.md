@@ -12,8 +12,8 @@
     - [技术总结](summary/ji-shu.md)
     - [盲点总结](summary/mang-dian.md)
     - [情商总结](summary/qing-shang.md)
-    <!--- [恋爱总结](summary/lian-ai.md)-->
-    <!--- [婚姻总结](summary/hun-yin.md)-->
+    - [恋爱总结](summary/lian-ai.md)
+    - [婚姻总结](summary/hun-yin.md)
     - [生活总结](summary/sheng-huo.md)
     - [贷款总结](summary/dai-kuan.md)
     - [其它总结](summary/qi-ta.md)
