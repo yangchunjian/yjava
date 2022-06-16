@@ -8,14 +8,14 @@
     - [工作总结](summary/gong-zuo.md)
     - [职场总结](summary/zhi-chang.md)
     - [面试总结](summary/mian-shi.md)
-    <!--- - [求职总结](summary/qiu-zhi.md)-->
+    - [求职总结](summary/qiu-zhi.md)
     - [技术总结](summary/ji-shu.md)
     - [盲点总结](summary/mang-dian.md)
     - [情商总结](summary/qing-shang.md)
     <!--- [恋爱总结](summary/lian-ai.md)-->
     <!--- [婚姻总结](summary/hun-yin.md)-->
     - [生活总结](summary/sheng-huo.md)
-    <!--- [贷款总结](summary/dai-kuan.md)-->
+    - [贷款总结](summary/dai-kuan.md)
     - [其它总结](summary/qi-ta.md)
 * 程序总结
     - [自著篇](book/zi-zhu.md)
