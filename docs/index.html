@@ -41,15 +41,15 @@
 <div id="app">正在加载中...</div>
 <script>
 
-    var gitalkConfig = {
-        clientID: 'b66ac4c7fa76c8435646',
-        clientSecret: '38dc8fba306fad005ba142e06254c91b39bca2ce',
-        repo: 'docbook',
-        owner: 'yangchunjian',
-        admin: ["yangchunjian"],
-//        id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
-        distractionFreeMode: false
-    };
+//     var gitalkConfig = {
+//         clientID: 'b66ac4c7fa76c8435646',
+//         clientSecret: '38dc8fba306fad005ba142e06254c91b39bca2ce',
+//         repo: 'docbook',
+//         owner: 'yangchunjian',
+//         admin: ["yangchunjian"],
+// //        id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+//         distractionFreeMode: false
+//     };
     window.$docsify = {
         auto2top: true, //当路线改变时，滚动到屏幕的顶部。
         coverpage: true, //激活封面功能。如果为true，则会从中加载_coverpage.md。
@@ -178,30 +178,36 @@
 //                    }
                     //折叠目录
 
-                    var label, domObj, main, divEle, gitalk;
-                    label = vm.route.path.split("/").pop();
-                    domObj = Docsify.dom;
-                    main = domObj.getNode("#main");
-
-                    Array.apply(
-                        null,
-                        document.querySelectorAll("div.gitalk-container")
-                    ).forEach(function (ele) {
-                        ele.remove();
-                    });
-
-                    divEle = domObj.create("div");
-                    divEle.id = "gitalk-container-" + label;
-                    divEle.className = "gitalk-container";
-                    divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
-                    domObj.appendTo(domObj.find(".content"), divEle);
-                    gitalk = new Gitalk(
-                        Object.assign(gitalkConfig, {id: !label ? "home" : label})
-                    );
-                    gitalk.render("gitalk-container-" + label);
+                    // var label, domObj, main, divEle, gitalk;
+                    // label = vm.route.path.split("/").pop();
+                    // domObj = Docsify.dom;
+                    // main = domObj.getNode("#main");
+                    //
+                    // Array.apply(
+                    //     null,
+                    //     document.querySelectorAll("div.gitalk-container")
+                    // ).forEach(function (ele) {
+                    //     ele.remove();
+                    // });
+                    //
+                    // divEle = domObj.create("div");
+                    // divEle.id = "gitalk-container-" + label;
+                    // divEle.className = "gitalk-container";
+                    // divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
+                    // domObj.appendTo(domObj.find(".content"), divEle);
+                    // gitalk = new Gitalk(
+                    //     Object.assign(gitalkConfig, {id: !label ? "home" : label})
+                    // );
+                    // gitalk.render("gitalk-container-" + label);
                 });
             }
-        ]
+        ],
+        // docsify-valine (defaults)
+        Valine: {
+            appId: 'HFBhjpIb9BXQhLYKr91z5WTu-gzGzoHsz',
+            appKey: 'WrPL9Pyrt9cPDn0sWd0JUQRk',
+            // docPath: 'hash', //default to `hash` ,or you can choose `full`
+        }
     }
 
 
@@ -235,6 +241,10 @@
 <!-- or use this if you are not hosting the file yourself -->
 <script src="//www.yangchunjian.com/docbook/js/docsify-pdf-embed.js"></script>
 <!--<script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>-->
+
+<!--评论-->
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="//unpkg.com/docsify-valine/dist/docsify-valine.min.js"></script>
 
 </body>
 </html>
