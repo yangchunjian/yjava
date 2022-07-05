@@ -152,8 +152,9 @@
                     var editHtml = '[:memo: 编辑此页](' + url + ')\n'
                     return html
                         + '\n----\n'
-                        + '上次更新于:{docsify-updated} '
                         + editHtml
+                        + '<i style="float: right">上次更新于: {docsify-updated} </i>'
+
                 });
                 hook.doneEach(function () {
                     //折叠目录
