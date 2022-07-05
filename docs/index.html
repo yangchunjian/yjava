@@ -144,14 +144,15 @@
                 }
             }
         },
+        formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
         plugins: [
             function (hook, vm) {
                 hook.beforeEach(function (html) {
                     var url = 'https://github.com/yangchunjian/docbook/blob/master/docs/' + vm.route.file
-                    var editHtml = '[:memo: Edit Document](' + url + ')\n'
+                    var editHtml = '[:memo: 编辑此页](' + url + ')\n'
                     return html
                         + '\n----\n'
-                        + 'Last modified {docsify-updated} '
+                        + '上次更新于:{docsify-updated} '
                         + editHtml
                 });
                 hook.doneEach(function () {
