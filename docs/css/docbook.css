@@ -1,0 +1,9 @@
+
+/*设置评论M图标不可见且不可点击*/
+.v[data-class=v] .vrow .vcol.vcol-30{
+    visibility: hidden;
+}
+/*设置评论底部不可见*/
+.v[data-class=v] .txt-right{
+    display: none;
+}
