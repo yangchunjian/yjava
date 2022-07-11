@@ -1,47 +1,47 @@
 # 盲点总结
 
 ## 盲点记录
-1. ~~JVM~~
-2. ~~HashMap~~
-3. ~~红黑树~~
-4. ~~ConcurrentHashMap~~
-5. ~~LeetCode算法~~
-6. ~~工作项目~~
-7. ~~Dubbo~~
-8. ~~B+树和B树的区别~~
-9. ~~CMS和G1垃圾收集器区别~~
-10. ~~数据库索引底层的实现~~
-11. ~~Redis哨兵和集群~~
-12. ~~Elasticsearch原理~~
-13. ~~Java线程通信~~
-14. ~~SQL优化~~
-15. ~~Java不同版本之间的区别~~
-16. ~~开源框架源码（JFinal，JBoot）~~
-17. ~~消息队列~~
-18. ~~多线程~~
-19. ~~Docker~~
+1. JVM
+2. HashMap
+3. 红黑树
+4. ConcurrentHashMap
+5. LeetCode算法
+6. 工作项目
+7. Dubbo
+8. B+树和B树的区别
+9. CMS和G1垃圾收集器区别
+10. 数据库索引底层的实现
+11. Redis哨兵和集群
+12. Elasticsearch原理
+13. Java线程通信
+14. SQL优化
+15. Java不同版本之间的区别
+16. 开源框架源码（JFinal，JBoot）
+17. 消息队列
+18. 多线程
+19. Docker
 20. 网络编程
 21. Web网络安全
-22. ~~Shell脚本~~
-23. ~~Spring相关的框架~~
-24. ~~DDD领域模型~~
+22. Shell脚本
+23. Spring相关的框架
+24. DDD领域模型
 25. k8s
-26. ~~微服务~~
-27. ~~生产者消费者模式~~
-28. ~~设计模式~~
-29. ~~数据库隔离级别~~
-30. ~~Spark和Flink~~
-31. ~~Java NIO~~
-32. ~~Java线程池~~
-33. ~~Java堆、栈、方法区等溢出代码~~
-34. ~~Java线程池的核数和物理核配置怎么才合理~~
+26. 微服务
+27. 生产者消费者模式
+28. 设计模式
+29. 数据库隔离级别
+30. Spark和Flink
+31. Java NIO
+32. Java线程池
+33. Java堆、栈、方法区等溢出代码
+34. Java线程池的核数和物理核配置怎么才合理
 35. 三次握手，四次挥手
 36. redis、ZooKeeper分布式锁
-37. ~~JVM内存模型，GC~~
-38. ~~ES优化，脑裂~~
-39. ~~i++ 和 i=i+1在字节码文件上怎么实现及区别~~
+37. JVM内存模型，GC
+38. ES优化，脑裂
+39. i++ 和 i=i+1在字节码文件上怎么实现及区别
 40. csrf攻击和防御
-41. ~~数据库主键设计为自增的好处~~
+41. 数据库主键设计为自增的好处
 42. 分库分表
 43. Spring bean的生命周期
 44. MySQL索引有哪些
@@ -55,8 +55,8 @@
 52. SpringJPA  
 53. MySQL慢查询
 54. 死锁
-55. ~~归并排序~~
-56. ~~快速排序~~
+55. 归并排序
+56. 快速排序
 57. synchronized原理
 58. MQ的消息怎么保证不丢失
 59. 一个URL到Controller的整个过程是怎么样的
@@ -118,12 +118,33 @@
 114. 各种服务常用端口号
 115. Java基础知识
 116. idea远程调试
-
-
 117. 垃圾收集器G1的回收过程
 118. Spring循环依赖问题怎么解决
 119. MySQL MVCC乐观版本并发控制解决了什么问题
-
+120. Zookeeper面试题
+121. JVM 
+122. 多线程 
+123. MySQL
+124. Elasticsearch 
+125. Redis
+126. Spring 
+127. SpringBoot
+128. SpringCloud
+129. Java
+130. ZooKeeper
+131. Linux
+132. Kafka
+133. Spark
+134. Flink
+135. Netty
+136. MyBatis
+137. Hadoop
+138. Web
+139. 微服务
+140. Dubbo
+141. 一致性hash算法
+142. zab协议
+143. zk和Eureka区别
 
 
 
