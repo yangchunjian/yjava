@@ -1,5 +1,5 @@
 
-* 思想总结
+* [思想总结](summary/readme.md)
     - [学习总结](summary/xue-xi.md)
     - [架构总结](summary/jia-gou.md)
     - [编码总结](summary/bian-ma.md)
@@ -20,7 +20,7 @@
     - [生活总结](summary/sheng-huo.md)
     - [贷款总结](summary/dai-kuan.md)
     - [其它总结](summary/qi-ta.md)
-* 程序总结
+* [程序总结](program/readme.md)
     - [自著篇](book/zi-zhu.md)
     - [算法篇](program/suan-fa.md)
     - [框架篇](program/kuang-jia.md)
