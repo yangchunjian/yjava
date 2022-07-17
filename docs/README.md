@@ -7,8 +7,8 @@
 > _持续更新中~_
 
 
-## [思想总结](summary/readme.md) 
-## [程序总结](program/readme.md)
+## [思想总结](https://www.yangchunjian.com/docbook/#/summary/) 
+## [程序总结](https://www.yangchunjian.com/docbook/#/program/)
 
 ## [CSDN](https://yangchunjian.blog.csdn.net) 
 ## [文档箱](#积累) 
