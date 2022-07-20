@@ -1,4 +1,5 @@
 
+* [**指南总结**](guide/)
 * **思想总结**
     - [学习总结](summary/xue-xi.md)
     - [架构总结](summary/jia-gou.md)

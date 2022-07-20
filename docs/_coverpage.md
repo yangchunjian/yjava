@@ -19,7 +19,7 @@
 <br>
 
 [☕️ CSDN](https://yangchunjian.blog.csdn.net)
-[☕️ 文档箱](https://www.yangchunjian.com/docbook/#/README)
+[☕️ 文档箱](https://www.yangchunjian.com/docbook/#/guide/)
 [☕️ Java面试](https://javainterview.cn)
 [☕️ 亲位网](https://dearlocation.com)
 [☕️ 微信号](https://www.yangchunjian.com/docbook/imgs/dearlocation.jpeg)
