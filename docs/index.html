@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
     <!--<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
     <link rel="icon" href="./imgs/qin_200x200.jpeg">
+
+    <!-- 自定义特色样式：by myself -->
+    <link rel="stylesheet" href="//www.yangchunjian.com/docbook/plugin/css/me.css">
+
+    <link rel="stylesheet" href="//www.yangchunjian.com/docbook/css/iconfont.css">
+
     <script>
         var _hmt = _hmt || [];
         (function () {
@@ -35,11 +41,21 @@
             right: 0px;
         }
 
+        .app-nav{
+            position: fixed;
+            /*margin: 0;*/
+            /*!*padding: 10px 50px 10px 0;*!*/
+            /*padding: 10px 0 10px 0;!*上、右、下、左*!*/
+            /*width: calc(100% - 325px);*/
+            /*background-color: #fff;*/
+            /*height: 55px;*/
+            /*border-bottom: 1px solid #eee;*/
+        }
     </style>
 
 </head>
 <body>
-<div id="app">正在加载中...</div>
+<div id="app">🏃‍🏃‍🏃‍💨 加载中...</div>
 <script>
 
 //     var gitalkConfig = {
@@ -53,7 +69,10 @@
 //     };
     window.$docsify = {
         auto2top: true, //当路线改变时，滚动到屏幕的顶部。
+        externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
         coverpage: true, //激活封面功能。如果为true，则会从中加载_coverpage.md。
+        onlyCover: true,
+        topMargin: 60,//调整top
         executeScript: true, //执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开启。
         loadSidebar: true, //_sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载。
         loadNavbar: true,//_navbar.md如果为真，则从_navbar.md文件加载navbar ，否则从指定的路径加载。
@@ -64,7 +83,19 @@
             '/.*/_sidebar.md': '/_sidebar.md'
         },
         ga: 'UA-106147152-1',
-        name: '春建的文档箱',
+
+        footer: {
+            // copy: '<div class = "over" >完结</div><br/><span>我能想到最浪漫的事，就是我喝咖啡你付钱~😆😏❤️ 打赏地址：<a href="https://yangchunjian.com/sponsor/" target="_blank">https://yangchunjian.com/sponsor/</a></span><iframe src="https://yangchunjian.com/sponsor/" style="overflow-x:hidden;overflow-y:hidden; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe><br/><span id="sitetime"></span><br/><span>Copyright &copy; 2019 - 至今</span>',
+            copy: '<div class = "over" >完结</div><br/><span id="sitetime"></span>&nbsp;&nbsp;<span>Copyright &copy; 2019 - 至今</span>&nbsp;&nbsp;',
+            auth: '<span><a href="https://www.yangchunjian.com/" target="_blank">🏷️ 春建的文档箱 </a> 积沙成塔！</span>',
+            pre: '',
+            style: '',
+            // style: 'text-align: left;',
+        },//添加页脚
+
+        name: '<p>🌈 春建的文档箱</p>',
+        nameLink: 'https://yangchunjian.com/',
+
         search: {
             noData: {
                 '/de-de/': '😞Keine Ergebnisse!',
@@ -248,6 +279,53 @@
 <!--评论-->
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script src="//unpkg.com/docsify-valine/dist/docsify-valine.min.js"></script>
+<!-- 访问量统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<!-- 实现离线化 -->
+<script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('pwa.js')
+    }
+</script>
+<!-- 添加页脚 -->
+<script src="//www.yangchunjian.com/docbook/plugin/docsify-footer-enh.min.js"></script>
+
+<!-- 添加网站运行时间统计 -->
+<script language=javascript>
+    function siteTime() {
+        window.setTimeout("siteTime()", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+        var today = new Date();
+        var todayYear = today.getFullYear();
+        var todayMonth = today.getMonth() + 1;
+        var todayDate = today.getDate();
+        var todayHour = today.getHours();
+        var todayMinute = today.getMinutes();
+        var todaySecond = today.getSeconds();
+        /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+        year - 作为date对象的年份，为4位年份值
+        month - 0-11之间的整数，做为date对象的月份
+        day - 1-31之间的整数，做为date对象的天数
+        hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+        minutes - 0-59之间的整数，做为date对象的分钟数
+        seconds - 0-59之间的整数，做为date对象的秒数
+        microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+        var t1 = Date.UTC(2019, 06, 21, 22, 22, 22); //北京时间2019-06-21 22:22:22
+        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+        var diff = t2 - t1;
+        var diffYears = Math.floor(diff / years);
+        var diffDays = Math.floor((diff / days) - diffYears * 365);
+        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+        document.getElementById("sitetime").innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+    }
+    siteTime();
+</script>
 </body>
 </html>
