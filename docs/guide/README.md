@@ -9,6 +9,7 @@
 ### [☕️ 程序总结](https://www.yangchunjian.com/docbook/#/program/)
 
 ---
+### [☕️ 程序员的青春不迷茫](https://www.yangchunjian.com/docbook/#/book/zi-zhu) 
 ### [☕️ CSDN](https://yangchunjian.blog.csdn.net) 
 ### [☕️ 文档箱](https://www.yangchunjian.com/docbook/#/guide/) 
 ### [☕️ Java面试](https://javainterview.cn)
