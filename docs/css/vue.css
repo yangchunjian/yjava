@@ -349,10 +349,10 @@ body.sticky .sidebar-toggle {
     border-top: 1px solid #ccc;
 }
 .markdown-section tr:nth-child(2n) {
-    background-color: #f8f8f8;
+    background-color: #ecf4fa;
 }
 .markdown-section p.tip {
-    background-color: #f8f8f8;
+    background-color: #ecf4fa;
     border-bottom-right-radius: 2px;
     border-left: 4px solid #f66;
     border-top-right-radius: 2px;
@@ -696,7 +696,7 @@ body {
 }
 .markdown-section code,
 .markdown-section pre {
-    background-color: #f8f8f8;
+    background-color: #ecf4fa;
 }
 .markdown-section pre,
 .markdown-section output {
