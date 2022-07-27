@@ -260,7 +260,7 @@ main.hidden {
 }
 .sidebar::-webkit-scrollbar-thumb {
     background: #339af0;
-    /*border-radius: 4px;*/
+    border-radius: 4px;
 }
 .sidebar:hover::-webkit-scrollbar-thumb {
     background: #339af0;
