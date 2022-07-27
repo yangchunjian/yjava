@@ -254,14 +254,17 @@ main.hidden {
     padding-left: 20px;
 }
 .sidebar::-webkit-scrollbar {
-    width: 4px;
+    /*width: 4px;*/
+    width: 6px;
+    height: 6px;
 }
 .sidebar::-webkit-scrollbar-thumb {
-    background: transparent;
-    border-radius: 4px;
+    background: #339af0;
+    /*border-radius: 4px;*/
 }
 .sidebar:hover::-webkit-scrollbar-thumb {
-    background: rgba(136,136,136,0.4);
+    background: #339af0;
+    /*background: rgba(136,136,136,0.4);*/
 }
 .sidebar:hover::-webkit-scrollbar-track {
     background: rgba(136,136,136,0.1);
