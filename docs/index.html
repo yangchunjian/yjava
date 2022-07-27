@@ -68,6 +68,12 @@
 //         distractionFreeMode: false
 //     };
     window.$docsify = {
+        themeColor: '#339af0',
+        requestHeaders: {
+            'cache-control': 'max-age=600',
+        },
+        notFoundPage: '/me/README.md',
+
         auto2top: true, //当路线改变时，滚动到屏幕的顶部。
         externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
         coverpage: true, //激活封面功能。如果为true，则会从中加载_coverpage.md。
