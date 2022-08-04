@@ -6,6 +6,7 @@
     - [顿悟总结](summary/dun-wu.md)
     - [疑问总结](summary/yi-wen.md)
     - [工作总结](summary/gong-zuo.md)
+    - [业务总结](summary/ye-wu.md)
     - [职场总结](summary/zhi-chang.md)
     - [面试总结](summary/mian-shi.md)
     - [试题总结](summary/mian-shi-ti.md)
