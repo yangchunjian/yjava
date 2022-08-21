@@ -23,6 +23,9 @@
     - [生活总结](summary/sheng-huo.md)
     - [贷款总结](summary/dai-kuan.md)
     - [其它总结](summary/qi-ta.md)
+* **目标总结**
+    - [积累总结](summary/ji-lei.md)
+    - [任务总结](summary/ren-wu.md)
 * **程序总结**
     - [自著篇](book/zi-zhu.md)
     - [算法篇](program/suan-fa.md)
