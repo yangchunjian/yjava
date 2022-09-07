@@ -84,3 +84,45 @@
 2. 职业规划
 3. 你有什么想问的
 
+
+## 中国电信一面
+1. 自我介绍
+2. 项目介绍
+3. 设计模式
+4. 中间件
+5. 冷启动
+6. Clickhouse
+7. ceph
+8. JVM内存结构
+9. Lock和synchronized区别
+10. ThreadLocal及内存泄露
+11. 线程死锁
+12. CountDownLatch和CyclicBarrier
+13. sleep和wait区别
+14. 双亲委派
+15. classloader
+16. redis类型，及底层原理
+17. 跳表
+18. kafka组成部分
+19. partition和consumer对应关系
+20. kafka为什么快
+21. mysql mvcc
+22. redo log和undo log日志
+23. es用法
+24. 算法题：给定一个未排序的整数数组nums，找出数字连续的最长序列的长度，要求o(n)
+    例如：[100,4,200,1,3,2],返回4
+25. 有什么想问的
+    
+## 百度一面
+1. 自我介绍
+2. CSDN博客
+3. GITHUB
+4. es多索引多分片，es为什么快
+5. 推荐架构
+6. 限流
+7. 消息积压怎么处理
+8. 热点商户怎么快速检索，怎么设计
+9. 分布式锁
+10. 你有什么问我的吗
+
+
