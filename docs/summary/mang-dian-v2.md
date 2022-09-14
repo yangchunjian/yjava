@@ -205,6 +205,11 @@
 201. ~~为什么创建核心线程后放队列里，而不是创建最大线程数~~
 202. ~~lock中condition作用~~
 203. ~~mysql锁有哪些~~
+204. ~~Redis内存管理（zmallc.c文件）~~
+205. ~~Spring boot jpa~~
+206. ~~ehcache和guava、Caffeine区别~~
+207. ~~hibernate~~
+208. ~~动态替换线程池参数~~
 
 
 
