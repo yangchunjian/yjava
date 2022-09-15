@@ -333,3 +333,75 @@
 24. sql注入
 25. springboot和springcloud
 26. 你有什么想问的吗
+
+## 曼孚科技一面
+1. 自我介绍
+2. mysql的索引，b+树，和b树哪个快
+3. myisam和innodb区别
+4. mysql like前缀查询为什么没用到索引
+5. mysql的事务隔离级别
+6. 脏读和幻读
+7. mvcc及事务原理，怎么脏读、幻读
+8. 推荐怎么做的
+9. 重构怎么做的
+10. 你有什么要问的么
+
+## 快看漫画一面
+1. 自我介绍
+2. 项目介绍
+3. Java GC
+4. CMS会产生碎片么，怎么处理（compact？）
+5. CMS担保机制
+6. AQS
+7. CountdownLatch和CyclicBarrier
+8. ThreadLocal
+9. Redis zset
+10. 跳表，时间复杂度
+11. push推送
+12. mysql索引
+13. myisam和innodb区别
+14. 幻读
+15. BeanPostProcessor和BeanFactoryPostProcessor
+16. CopyOnWriteArrayList是安全的吗
+17. lock和synchronized区别
+18. netty零拷贝
+19. 多列索引哪些情况会用到索引
+20. mysql主从，从库延迟，读取怎么读到最新数据（直接读主库）
+21. 算法题：二叉树的锯齿形层序遍历
+22. 你有什么问我的吗
+
+## 快手二面
+1. 自我介绍
+2. 发展方向
+3. 国内和海外业务有哪些区别（语言、时区？）
+4. 数据时延问题怎么解决，怎么交互，（网关？）
+5. 推荐业务
+6. 集群部署，召回怎么配置
+7. 性能优化
+8. 泛型（？ extends，super）
+9. 多线程，concurrent包下的类的使用场景
+10. BlockingQueue有哪些，不阻塞的队列有哪些，耗时情况
+11. CPU过高排查方式
+12. 算法题：使用3个线程，1个线程打印X，1个线程打印Y，1个线程打印Z，同时执行连续打印10次"XYZ"
+13. 你有什么问我的吗
+
+## 中信银行全面
+1. 自我介绍
+2. 项目介绍
+3. 操作系统进程间通信方式，及区别
+4. Linux文件系统，每个文件夹做什么用的，var文件夹
+5. TCP为什么会粘包，为什么分块传
+6. TCP三次握手和四次挥手，为什么是三次和为什么是四次，2*msl是为什么
+7. 设计模式用了哪些
+8. 链路追踪
+9. asm字节码
+10. spi，dubbo中spi的使用
+11. applicationcontext初始化过程
+12. 手写RPC注意哪些，有哪些协议
+13. netty线程模型，reactor（单线程、主从、多线程）
+14. mysql有哪些日志类型（binlog、undolog、redolog、relaylog、slowlog、dumplog等）
+15. 链路追踪实现方式
+16. 对银行IT怎么看
+17. 发展方向
+18. 你有什么想问的
+
