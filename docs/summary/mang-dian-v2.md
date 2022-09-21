@@ -249,9 +249,18 @@
 245. ~~G1跨代收集（卡表，脏表，RemeberedSet RemeberedSet log）~~
 246. ~~Java对象头~~
 247. ~~栈帧有哪些内容~~
-248. aqs公平锁和非公平锁
-249. concurrent包下有哪些类
-250. condition是什么回事，使用condition为啥先加锁
+248. ~~aqs公平锁和非公平锁~~
+249. ~~concurrent包下有哪些类~~
+250. ~~condition是什么回事，使用condition为啥先加锁~~
+251. ~~对go语言熟么，和java的区别~~
+252. ~~使用Phabricator(可视化代码评审工具)~~
+253. ~~gitlab前面的gerrit、jenkins~~
+254. ~~docker和k8s区别~~
+255. JDK9中有关类加载器的变动
+256. CountDownLatch
+257. rpc框架选型
+258. jvm TLAB
+
 
 
 
