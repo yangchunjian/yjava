@@ -256,10 +256,16 @@
 252. ~~使用Phabricator(可视化代码评审工具)~~
 253. ~~gitlab前面的gerrit、jenkins~~
 254. ~~docker和k8s区别~~
-255. JDK9中有关类加载器的变动
-256. CountDownLatch
-257. rpc框架选型
-258. jvm TLAB
+255. ~~JDK9中有关类加载器的变动~~
+256. ~~CountDownLatch~~
+257. ~~rpc框架选型~~
+258. ~~jvm TLAB~~
+259. ~~快排时间复杂度为什么是NlogN~~
+260. ~~各种排序算法的时间复杂度~~
+261. JVM中有哪些常驻线程（ NPTL（Native POSIX Thread Library） 模型）
+261. 
+
+
 
 
 
