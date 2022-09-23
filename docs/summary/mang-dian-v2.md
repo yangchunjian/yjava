@@ -262,8 +262,14 @@
 258. ~~jvm TLAB~~
 259. ~~快排时间复杂度为什么是NlogN~~
 260. ~~各种排序算法的时间复杂度~~
-261. JVM中有哪些常驻线程（ NPTL（Native POSIX Thread Library） 模型）
-261. 
+261. ~~JVM中有哪些常驻线程（ NPTL（Native POSIX Thread Library） 模型）~~
+262. ~~tidb和clickhouse~~
+263. ~~Paxos到Zookeeper~~
+264. ~~HDFS小文件问题~~
+265. ~~mysql索引执行顺序~~
+266. ~~rocketmq事务消息怎么做的（2PC，二阶段提交）~~
+267. ~~https交互流程~~
+268. ~~Dubbo spi和Java spi区别~~
 
 
 
