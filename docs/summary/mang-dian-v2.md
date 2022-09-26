@@ -270,6 +270,17 @@
 266. ~~rocketmq事务消息怎么做的（2PC，二阶段提交）~~
 267. ~~https交互流程~~
 268. ~~Dubbo spi和Java spi区别~~
+269. ~~hdfs中文件类型。lzo，大量小文件有哪些~~
+270. ~~springboot中bootstrap和application文件区别~~
+271. ~~springboot如何自定义start~~
+272. ~~springCloud熔断（Hystrix,隔离级别）~~
+273. ~~springCloud~~
+274. ~~Skywalking原理(探针)~~
+275. ~~elasticsearch加权（score，有哪些因子）~~
+275. JavaAgent
+275. 服务网格(Service Mesh)
+278. nginx网关和spring cloud网关区别
+
 
 
 
