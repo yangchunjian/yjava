@@ -285,7 +285,15 @@
 281. ~~http请求缓存~~
 282. ~~mysql索引下推~~
 283. ~~mysql前缀索引~~
-283. 
+284. flink的checkpoint
+285. kafka ack和nack
+286. service mesh（服务网格Istio架构）
+287. RAFT与PAXOS区别
+284. 
+284. 
+284. 
+284. 
+284. 
 
 
 
