@@ -314,8 +314,8 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
     I hope there will be a certain increase, for example, 20%~30%
 
 
-
-
+## 文案篇
+1. 常见问题要备文案（中英文） 
 
 ## 技术面
 1. 见好就收
