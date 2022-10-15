@@ -313,6 +313,8 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
 
 
 
+
+
 ## 技术面
 1. 见好就收
 2. 熟悉的技术就多聊，不熟悉的技术就回避
@@ -381,6 +383,28 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
     去OPay后也陆续带了几个人（2~7个人）；
     
     大概这些情况。
+
+
+诉求篇
+
+    人才聚集地，认为是很好的机会
+    
+    A talent gathering place, which is considered a good opportunity
+
+
+    希望职级和title能合理和友善一些
+    
+    Hopes the rank and title can be reasonable and friendly
+
+
+    希望能有一定涨幅，例如20%~30%
+    
+    I hope there will be a certain increase, for example, 20%~30%
+
+
+
+
+
 
 
 ## 项目篇
