@@ -65,6 +65,7 @@
 
 ## 中英篇
 
+### **示例**
 
 **自我介绍（introduce yourself）**
 
@@ -242,6 +243,28 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
         58 The design and implementation of the feed recommendation service in the local version APP (starting from 0) can support the concurrency of 800w+DAU and 5k+QPS at peak hours, ensure the overall service response performance at 150ms -, reduce the timeout and design the bottom logic. It has a positive impact on the daily life, PV, CTR, etc. of 58 local apps.
     
 
+短句
+
+    经常和算法同事合作，一对六编程
+    
+    Frequently cooperate with algorithm colleagues, one to six programming
+
+
+    几十个集群
+    
+    Dozens of clusters
+
+    重难点
+    
+    Key and difficult points
+
+
+    抽象模板设计、性能、线上问题排查
+    
+    Abstract template design, performance, online problem troubleshooting
+
+
+
 **项目角色（role project）**
 
 
@@ -264,6 +287,21 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
     Follow the technical route, technical experts or architects, and follow the company's technical system
 
 
+**目前薪资（Current Salary）**
+
+    目前50k * 15月，没有股票和期权
+    
+    At present, there are no stocks and options in 50k * 15
+    
+    目前34k * 15月，2000股票/4年，每年500股票
+    
+    At present, 34k * 15 months, 2000 shares/4 years, 500 shares per year
+
+**期望薪资（Salary Expectation）**
+
+    希望有一定涨幅，例如20%~30%
+    
+    I hope there will be a certain increase, for example, 20%~30%
 
 
 
@@ -491,11 +529,23 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
 
     薪资不是考虑机会的唯一因素，也会结合个人的成长和思维的提高；
     
+    Salary is not the only factor to consider opportunities, but also combines personal growth and improvement of thinking;
+
+
+    
     听您介绍过后，觉得是个很好的机会，愿意服从公司安排；
+    
+    After listening to your introduction, I think it is a good opportunity and I am willing to obey the company's arrangement;
+
+
 
 **如果一般在意机会**
 
-    可提出一定涨幅；
+    希望能有一定涨幅，例如20%~30%
+    
+    I hope there will be a certain increase, for example, 20%~30%
+
+
 
 ## 词汇篇
 ### 二字动词
