@@ -598,6 +598,7 @@ body {
 .sidebar {
     background-color: #fff;
     color: #364149;
+    position: fixed;/*固定位置*/
 }
 .sidebar li {
     margin: 6px 0 6px 0;
