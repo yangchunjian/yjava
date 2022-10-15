@@ -264,6 +264,12 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
     Abstract template design, performance, online problem troubleshooting
 
 
+    技术框架
+    
+    Technical framework
+
+
+
 
 **项目角色（role project）**
 
