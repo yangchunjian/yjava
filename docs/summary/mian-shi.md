@@ -402,6 +402,10 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
     I hope there will be a certain increase, for example, 20%~30%
 
 
+    愿意服从公司的安排
+    
+    Willing to obey the company's arrangement
+
 
 
 
