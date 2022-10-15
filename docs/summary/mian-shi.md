@@ -406,11 +406,6 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
     
     Willing to obey the company's arrangement
 
-
-
-
-
-
 ## 项目篇
 1. 项目用到的设计模式
 2. 项目的架构图
