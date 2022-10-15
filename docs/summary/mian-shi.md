@@ -268,7 +268,9 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
     
     Technical framework
 
-
+    新冠疫情影响
+    
+    Impact of Corona Virus Disease
 
 
 **项目角色（role project）**
