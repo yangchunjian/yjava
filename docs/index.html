@@ -12,7 +12,7 @@
     <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">-->
     <!--<link rel="stylesheet" href="//yangchunjian.com/docbook/css/gitalk.css">-->
     <!--<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">-->
-    <link rel="stylesheet" href="//yangchunjian.com/docbook/gitalk/gitalk.css">
+    <link rel="stylesheet" href="//yangchunjian.com/docbook/unpkg/gitalk.css">
     <!--<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
     <link rel="icon" href="./imgs/qin_200x200.jpeg">
 
@@ -42,7 +42,7 @@
             right: 0px;
         }
 
-        .app-nav{
+        .app-nav {
             position: fixed;
             /*margin: 0;*/
             /*!*padding: 10px 50px 10px 0;*!*/
@@ -60,15 +60,15 @@
 <div id="app">🏃‍🏃‍🏃‍💨 加载中...</div>
 <script>
 
-//     var gitalkConfig = {
-//         clientID: 'b66ac4c7fa76c8435646',
-//         clientSecret: '38dc8fba306fad005ba142e06254c91b39bca2ce',
-//         repo: 'docbook',
-//         owner: 'yangchunjian',
-//         admin: ["yangchunjian"],
-// //        id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
-//         distractionFreeMode: false
-//     };
+    //     var gitalkConfig = {
+    //         clientID: 'b66ac4c7fa76c8435646',
+    //         clientSecret: '38dc8fba306fad005ba142e06254c91b39bca2ce',
+    //         repo: 'docbook',
+    //         owner: 'yangchunjian',
+    //         admin: ["yangchunjian"],
+    // //        id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+    //         distractionFreeMode: false
+    //     };
     window.$docsify = {
         themeColor: '#339af0',
         requestHeaders: {
@@ -141,7 +141,7 @@
         markdown: {
             smartypants: true,
             renderer: {
-                code: function(code, lang, base=null) {
+                code: function (code, lang, base = null) {
 
                     /* if (lang === "dot") {
                      return (
@@ -149,34 +149,36 @@
                      );
                      } */
 
-                    var pdf_renderer = function(code, lang, verify) {
-                        function unique_id_generator(){
-                            function rand_gen(){
-                                return Math.floor((Math.random()+1) * 65536).toString(16).substring(1);
+                    var pdf_renderer = function (code, lang, verify) {
+                        function unique_id_generator() {
+                            function rand_gen() {
+                                return Math.floor((Math.random() + 1) * 65536).toString(16).substring(1);
                             }
+
                             return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
                         }
-                        if(lang && !lang.localeCompare('pdf', 'en', {sensitivity: 'base'})){
-                            if(verify){
+
+                        if (lang && !lang.localeCompare('pdf', 'en', {sensitivity: 'base'})) {
+                            if (verify) {
                                 return true;
-                            }else{
+                            } else {
                                 var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
                                 var container_list = new Array();
-                                if(localStorage.getItem('pdf_container_list')){
+                                if (localStorage.getItem('pdf_container_list')) {
                                     container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
                                 }
                                 container_list.push({"pdf_location": code, "div_id": divId});
                                 localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
                                 return (
-                                    '<div style="margin-top:'+ PDF_MARGIN_TOP +'; margin-bottom:'+ PDF_MARGIN_BOTTOM +';" id="'+ divId +'">'
-                                    + '<a href="'+ code + '"> Link </a> to ' + code +
+                                    '<div style="margin-top:' + PDF_MARGIN_TOP + '; margin-bottom:' + PDF_MARGIN_BOTTOM + ';" id="' + divId + '">'
+                                    + '<a href="' + code + '"> Link </a> to ' + code +
                                     '</div>'
                                 );
                             }
                         }
                         return false;
                     }
-                    if(pdf_renderer(code, lang, true)){
+                    if (pdf_renderer(code, lang, true)) {
                         return pdf_renderer(code, lang, false);
                     }
                     //return this.origin.code.apply(this, arguments);
@@ -253,7 +255,6 @@
             // docPath: 'hash', //default to `hash` ,or you can choose `full`
         }
     }
-
 
 
 </script>
@@ -349,7 +350,12 @@
         var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-        document.getElementById("sitetime").innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+        let time = document.getElementById("sitetime");
+        if (time != null) {
+            time.innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+        }
+        ;
+
     }
     siteTime();
 </script>
