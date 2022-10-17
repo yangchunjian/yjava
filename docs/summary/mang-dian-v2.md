@@ -293,10 +293,10 @@
 289. ~~kafka 消息语义~~
 290. ~~SQL执行流程~~
 291. mysql索引中指针指的是什么（一块内存区域）
-292. sidecar
+292. Sidecar
 293. k8s
 294. docker
-294. 
+294. ~~springboot如何自定义start~~
 
 
 
