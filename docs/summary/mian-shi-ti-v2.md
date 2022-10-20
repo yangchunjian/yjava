@@ -1766,7 +1766,7 @@
 2. 自我介绍
 3. 项目介绍
 4. 链路追踪
-5. bigdecimal中compareTo和equals区别
+5. bigdecimal中compareTo和equals区别（equals比较精度，compareTo比较是是值大小）
 6. 敏感词过滤（DFA有穷自动机）
 7. redis数据类型
 8. mysql索引
