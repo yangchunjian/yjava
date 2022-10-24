@@ -20,6 +20,13 @@ public class Test_100 {
         Integer[] ret1= doIntArr1(input);
         Integer[] ret2= doIntArr2(input);
 
+        //数组转集合
+        List<Integer> temp = Arrays.asList(ret2);
+
+        //集合转数组
+        Integer[] tempArr = temp.toArray(new Integer[ret2.length]);
+
+
         System.out.println("ret="+Arrays.toString(ret));
         System.out.println("ret1="+Arrays.toString(ret1));
         System.out.println("ret2="+Arrays.toString(ret2));
