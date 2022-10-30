@@ -1,5 +1,8 @@
 # 盲点总结
 
+## [盲点总结V2](summary/mang-dian-v2.md)
+
+
 ## 盲点记录
 1. JVM
 2. HashMap
