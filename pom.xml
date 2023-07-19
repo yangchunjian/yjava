@@ -14,8 +14,8 @@
     <url>https://github.com/yangchunjian/docbook</url>
 
     <modules>
-        <module>docbook-jian</module>
         <module>docbook-demo</module>
+        <module>docbook-web</module>
         <module>docbook-all</module>
     </modules>
 
