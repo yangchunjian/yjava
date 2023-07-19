@@ -368,7 +368,7 @@ https://www.yangchunjian.com/docbook/book/阿里巴巴Java开发手册(详尽版
     
     create table  tb_cart_goods_special (
       id int unsigned not null  auto_increment,
-      area varchar(10)  not null default 'cn' comment '区域简称, e.g. cn,hk,tw,sg',
+      area varchar(10)  not null default 'com' comment '区域简称, e.g. com,hk,tw,sg',
      region_name varchar(20) not null default '' comment '区域名称',
      primary key (id)
     ）engine=innodb  auto_increment=1 default charset=utf8 comment='购物车下面单个商品的推荐调整’;
