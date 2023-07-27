@@ -18,11 +18,11 @@
    
 
 ## 照片集
-![天安门](https://www.yjava.cn/yjava/imgs/me/me_1.jpeg)
-![古塔公园](https://www.yjava.cn/yjava/imgs/me/me_2.jpeg)
-![故宫](https://www.yjava.cn/yjava/imgs/me/me_3.jpeg)
-![天坛](https://www.yjava.cn/yjava/imgs/me/me_4.jpeg)
-![北京站](https://www.yjava.cn/yjava/imgs/me/me_5.jpeg)
+![天安门](https://www.yjava.cn/imgs/me/me_1.jpeg)
+![古塔公园](https://www.yjava.cn/imgs/me/me_2.jpeg)
+![故宫](https://www.yjava.cn/imgs/me/me_3.jpeg)
+![天坛](https://www.yjava.cn/imgs/me/me_4.jpeg)
+![北京站](https://www.yjava.cn/imgs/me/me_5.jpeg)
 
 ## 择偶要求
 
@@ -31,10 +31,10 @@
 ## 联系方式
 
 ### 微信号
-![](https://www.yjava.cn/yjava/imgs/me/me_0.jpeg)
+![](https://www.yjava.cn/imgs/me/me_0.jpeg)
     
 ### 微信群
-![](https://www.yjava.cn/yjava/imgs/me/me_00.jpeg)
+![](https://www.yjava.cn/imgs/me/me_00.jpeg)
 
     
 ---
