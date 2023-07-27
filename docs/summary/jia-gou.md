@@ -236,7 +236,7 @@ tag文件尽量做到统一，将当前分支打进tag中，便于后面发版�
 **六、附件**
 
 ```pdf
-https://www.yangchunjian.com/yjava/book/阿里巴巴Java开发手册(详尽版).pdf
+https://www.yjava.cn/yjava/book/阿里巴巴Java开发手册(详尽版).pdf
 ```
 
 ## 库表思想
