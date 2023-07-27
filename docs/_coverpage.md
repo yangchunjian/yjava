@@ -12,9 +12,9 @@
 </span>
 
 [️CSDN](https://yangchunjian.blog.csdn.net)
-[️文档箱](https://www.yangchunjian.com/docbook/#/guide/)
+[️文档箱](https://www.yangchunjian.com/yjava/#/guide/)
 [️Java面试](https://javainterview.cn)
 [️亲位网](https://dearlocation.com)
-[️微信号](https://www.yangchunjian.com/docbook/imgs/dearlocation.jpeg)
-[️公众号](https://www.yangchunjian.com/docbook/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
+[️微信号](https://www.yangchunjian.com/yjava/imgs/dearlocation.jpeg)
+[️公众号](https://www.yangchunjian.com/yjava/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
 

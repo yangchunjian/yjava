@@ -6,17 +6,17 @@
 
     <packaging>pom</packaging>
 
-    <groupId>com.docbook</groupId>
-    <artifactId>docbook-parent</artifactId>
+    <groupId>cn.yjava</groupId>
+    <artifactId>yjava-parent</artifactId>
     <version>2.0.0</version>
-    <name>docbook</name>
+    <name>yjava</name>
     <description>文档箱（思考+总结）</description>
-    <url>https://github.com/yangchunjian/docbook</url>
+    <url>https://github.com/yangchunjian/yjava</url>
 
     <modules>
-        <module>docbook-demo</module>
-        <module>docbook-web</module>
-        <module>docbook-all</module>
+        <module>yjava-demo</module>
+        <module>yjava-web</module>
+        <module>yjava-all</module>
     </modules>
 
     <properties>
@@ -25,7 +25,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
 
-        <Automatic-Module-Name>com.docbook</Automatic-Module-Name>
+        <Automatic-Module-Name>cn.yjava</Automatic-Module-Name>
 
         <!-- versions -->
         <compile.version>17</compile.version>
@@ -51,7 +51,7 @@
 
     <issueManagement>
         <system>Github Issue</system>
-        <url>https://github.com/yangchunjian/docbook/issues</url>
+        <url>https://github.com/yangchunjian/yjava/issues</url>
     </issueManagement>
 
     <licenses>
@@ -69,9 +69,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git@github.com:yangchunjian/docbook.git</connection>
-        <developerConnection>scm:git@github.com:yangchunjian/docbook.git</developerConnection>
-        <url>git@github.com:yangchunjian/docbook.git</url>
+        <connection>scm:git@github.com:yangchunjian/yjava.git</connection>
+        <developerConnection>scm:git@github.com:yangchunjian/yjava.git</developerConnection>
+        <url>git@github.com:yangchunjian/yjava.git</url>
     </scm>
 
     <build>
