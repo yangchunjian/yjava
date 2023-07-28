@@ -59,7 +59,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>cn.yjava.web.DocbookWebApplication</mainClass>
+                    <mainClass>cn.yjava.web.YJavaWebApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>
