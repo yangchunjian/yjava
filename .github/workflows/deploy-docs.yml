@@ -1,0 +1,27 @@
+
+name: 部署文档
+
+on:
+  push:
+    branches:
+      # 确保这是你正在使用的分支名称
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Mirror the Github organization repos to Gitee.
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: 'github/yangchunjian'    						# 这里改为自己github账号名称，如github/yangchunjian
+          dst: 'gitee/yangchunjian'     						# 这里改为gitee上账号名称，如gitee/yangchunjian
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY20230718 }}  	# 这是生成的私钥，下面第3步会讲
+          dst_token:  ${{ secrets.GITEE_TOKEN20230718 }}     	# 这是gitee上生成的token，下面会讲
+          force_update: true
+          static_list: "yjava"   					# 同步的仓库名称，这里为yjava，意思是会自动同步该仓库到gitee下同名仓库
+          debug: true
