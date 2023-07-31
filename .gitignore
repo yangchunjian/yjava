@@ -11,8 +11,9 @@
 *.class
 .idea
 # Generated files
-bin/
+#bin/
 gen/
+target/
 out/
 #  Uncomment the following line in case you need and you don't have the release build type files in your app
 # release/
