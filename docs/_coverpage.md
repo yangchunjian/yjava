@@ -15,7 +15,8 @@
 [️文档箱](https://www.yjava.cn/#/guide/)
 [️Java面试](https://javainterview.cn)
 [架构设计](https://ujava.cn)
-[️亲位网](https://dearlocation.com)
+
+[//]: # ([️亲位网]&#40;https://dearlocation.com&#41;)
 [️微信号](https://www.yjava.cn/imgs/dearlocation.jpeg)
 [️公众号](https://www.yjava.cn/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
 
