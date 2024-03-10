@@ -10,7 +10,7 @@
     <artifactId>yjava-parent</artifactId>
     <version>4.0.0</version>
     <name>yjava</name>
-    <description>文档箱（思考+总结）</description>
+    <description>文档集合（思考+总结）</description>
     <url>https://github.com/yangchunjian/yjava</url>
 
     <modules>
