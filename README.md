@@ -1,4 +1,4 @@
-# 春建的文档箱
+# 春建的文档集合
 
 > _持续更新中~_
 
@@ -20,7 +20,7 @@
 ---
 
 ### [☕️ CSDN](https://yangchunjian.blog.csdn.net) 
-### [☕️ 文档箱](https://www.yjava.cn/#/guide/) 
+### [☕️ 文档集合](https://www.yjava.cn/#/guide/) 
 ### [☕️ Java面试](https://javainterview.cn)
 ### [☕️ 亲位网](https://dearlocation.com)
 ### [☕️ 微信号](https://www.yjava.cn/imgs/dearlocation.jpeg)

@@ -1,6 +1,6 @@
 <img width="80px" style="border-radius: 50%" bor src="./imgs/qin_200x200.jpg">
 
-# 春建的文档箱
+# 文档集合
 
 > _持续更新中~_
 
@@ -12,7 +12,7 @@
 </span>
 
 [️CSDN](https://yangchunjian.blog.csdn.net)
-[️文档箱](https://www.yjava.cn/#/guide/)
+[️文档集合](https://www.yjava.cn/#/guide/)
 [️Java面试](https://javainterview.cn)
 [架构设计](https://ujava.cn)
 [️微信号](https://www.yjava.cn/imgs/dearlocation.jpeg)
