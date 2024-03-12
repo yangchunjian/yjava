@@ -13,6 +13,9 @@ import org.springframework.beans.BeanUtils;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 不启动容器单测
+ */
 public class NewUserTest extends NewBaseTest {
 
     @Mock
@@ -24,17 +27,9 @@ public class NewUserTest extends NewBaseTest {
 
 
     @Test
-    public void testQuery() {
+    public void testInsert() {
 
-        User u = User.builder().name("62ac4113a831dda570e59820fdf11351").age(11).build();
-
-        List<User> ret = new ArrayList<>();
-
-        User b = new User();
-
-        BeanUtils.copyProperties(u, b);
-
-        ret.add(b);
+        User u = User.builder().name("中国").age(11).build();
 
         Mockito.when(userMapper.insert(Mockito.any())).thenReturn(2).thenThrow(new RuntimeException("111"));
 

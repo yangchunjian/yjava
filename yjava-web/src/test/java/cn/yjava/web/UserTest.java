@@ -9,6 +9,9 @@ import org.junit.Test;
 import org.mockito.Mockito;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
+/**
+ * 启动容器单测
+ */
 public class UserTest extends BaseTest {
 
     @Resource

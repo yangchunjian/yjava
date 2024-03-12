@@ -23,6 +23,5 @@ import lombok.Builder;
  */
 public interface UserMapper {
 
-    int insert(User user);
-
+    public int insert(User user);
 }
