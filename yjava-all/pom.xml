@@ -8,8 +8,20 @@
         <artifactId>yjava-parent</artifactId>
         <version>4.0.0</version>
     </parent>
-
     <artifactId>yjava-all</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>yjava-demo</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>yjava-web</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
