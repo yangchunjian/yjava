@@ -16,35 +16,12 @@
 
 package cn.yjava.web.demos.web;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.NoArgsConstructor;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
  */
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class User {
+public interface UserService {
 
-    private String name;
-
-    private Integer age;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
+    int insert(User u );
 }
