@@ -12,5 +12,7 @@
 - 设计模式
 - PromQL
 - 算法题
+- ElasticSearch
+- Redis
 - 
 
