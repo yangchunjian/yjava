@@ -134,110 +134,32 @@
 
 中文版
 
-    我叫XXX，13年本科毕业，16年硕士毕业。
+    我叫XXX，XXX年本科毕业，XXX年硕士毕业。
     
     先后在几家公司工作过；
     
-    之前主要在京东商城工作近3年左右，主要做全球购、7Fresh生鲜、加工工厂等系统，
+    之前在XXX工作，主要做XXX等系统，
     
-    后面又去到了58同城，做推荐服务后端的开发和设计工作，工作了也近三年时间；
+    后面去到了XXX，做XXX的开发和设计工作；
     
-    后面又去到了OPay，做海外支付的，类似于海外支付宝，工作了近半年时间；
+    后面去到了XXX，做XXX工作；
     
-    一路走来主要是用Java语言，Java技术栈。
+    后面来到了XXX，做XXX工作；
     
-    18年之前主要在CSDN上写博客，年度总排名在10左右，当时是准专家的称号；
+    一路走来主要是用XXX语言。
     
-    18年之后主要在个站上写博客，最近服务器到期了有些资料丢失，不过还在维护几个站点；
+    XXX之前主要在XXX写博客，年度总排名在XXX内；
     
-    平时喜欢看新闻和美剧、写博客；
+    XXX之后主要在XXX写博客；
     
-    前两年也考过PMP项目管理证书；
+    平时喜欢XXX；
     
-    因为我在58这工作了近3年时间，前两年是我一个后端来支持整个58本地版APP的后台推荐服务；
-    
-    后面陆续招了4~5个后端同事，是我带和打绩效的；
-    
-    去OPay后也陆续带了几个人（2~7个人）；
+    前XXX年也考过XXX证书；
+     
+    去XXX陆续带了些人；
     
     大概这些情况。
 
-
-英文版
-
-    My name is XXX. I graduated from the university in 13 years and from the master's degree in 16 years.
-    
-    Worked in several companies successively;
-    
-    Before that, I mainly worked in Jingdong Mall for nearly 3 years, mainly doing global shopping, 7Fresh fresh food, processing plants and other systems,
-    
-    Later, I went to the same city of 58 to do the development and design of the backend of the recommendation service, and worked for nearly three years;
-    
-    Later, I went to opay to do overseas payment, similar to overseas Alipay, and worked for nearly half a year;
-    
-    Along the way, we mainly used Java language and Java technology stack.
-    
-    18 years ago, he mainly wrote blogs on CSDN, ranking around 10 in the annual total, and was a quasi expert at that time;
-    
-    After 18 years, I mainly wrote blogs on individual websites. Recently, the server expired and some materials were lost, but I still maintain several websites;
-    
-    I usually like watching news, American TV series and writing blogs;
-    
-    Have also passed the PMP project management certificate in the previous two years;
-
-    Because I have worked here for nearly three years, the first two years are my back-end to support the background recommendation service of the entire 58 local APP;
-    
-    Later, 4~5 back-end colleagues were recruited, and I led and played the performance;
-    
-    After going to OPay, we also brought several people (2~7 people);
-    
-    About these situations.
-
-**选择原因（Why choose VW）**
-
-中文版
-
-    为什么选择大众汽车服务中心？
-    
-    经验丰富的技术人员团队
-    
-    大众、奥迪、宝马、赛特、斯柯达和宾利的所有车型
-    
-    高科技诊断测试
-    
-    汽车维修和保养达到最高标准
-    
-    MOT测试
-    
-    提供免费代步车
-    
-    家族经营企业
-    
-    成熟、备受推崇的本地企业
-    
-    对于所有服务和维修工作，请致电01252 629159，或者如果您想把车带进来，我们将快速查看车辆。我们通常可以在第一次检查时给您一个估计值，但我们可能需要预订汽车，以便进一步调查，并提供更准确的成本计算。
-
-英文版
-
-    Why choose VW Autos Service Centre?
-    
-    Experienced team of skilled technicians
-    
-    All models of Volkswagen, Audi, BMW, Seat, Skoda and Bentley
-    
-    Hi-tech Diagnostic testing
-    
-    Car repairs and servicing to the highest standards
-    
-    MOT Tests
-    
-    Free courtesy cars available
-    
-    Family run business
-    
-    Established, highly regarded local business
-    
-    For all service and repair work, please call 01252 629159 or if you want to bring the car in we will take a quick look at vehicle. We can generally give you an estimate on first examination, but we may need the car to be booked in for further investigation and to provide a more accurate costing.
 
 **离职原因（left because）**
 
@@ -449,37 +371,6 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
 5. 介绍喜好
 6. 介绍证书
 7. 介绍管理
-
-样例
-
-    我叫XXX，13年本科毕业，16年硕士毕业。
-    
-    先后在几家公司工作过；
-    
-    之前主要在京东商城工作近3年左右，主要做全球购、7Fresh生鲜、加工工厂等系统，
-    
-    后面又去到了58同城，做推荐服务后端的开发和设计工作，工作了也近三年时间；
-    
-    后面又去到了OPay，做海外支付的，类似于海外支付宝，工作了近半年时间；
-    
-    一路走来主要是用Java语言，Java技术栈。
-    
-    18年之前主要在CSDN上写博客，年度总排名在10左右，当时是准专家的称号；
-    
-    18年之后主要在个站上写博客，最近服务器到期了有些资料丢失，不过还在维护几个站点；
-    
-    平时喜欢看新闻和美剧、写博客；
-    
-    前两年也考过PMP项目管理证书；
-    
-    因为我在58这工作了近3年时间，前两年是我一个后端来支持整个58本地版APP的后台推荐服务；
-    
-    后面陆续招了4~5个后端同事，是我带和打绩效的；
-    
-    去OPay后也陆续带了几个人（2~7个人）；
-    
-    大概这些情况。
-
 
 诉求篇
 
