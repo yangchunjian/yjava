@@ -203,51 +203,7 @@
 
                 });
                 hook.doneEach(function () {
-                    //折叠目录
-//                    document.querySelectorAll(".sidebar-nav > ul > li").forEach(
-//                        function (node, index, nodelist) {
-//                            var span = document.createElement("span");
-//                            span.innerHTML = node.firstChild.data + '<i>&gt;</i>';
-//                            span.style.cursor = "pointer";
-//                            //span.style.className = "arrow";
-//                            span.onclick = function (event) {
-//                                var ul = event.target.nextElementSibling;
-//                                if (ul.style.display === "none") {
-//                                    ul.style.display = "block";
-//                                } else {
-//                                    ul.style.display = "none";
-//                                }
-//                            };
-//                            node.firstChild.replaceWith(span);
-//                            node.lastChild.style.display = "none";
-//                        });
-//                    var active = document.querySelector(".sidebar-nav li.active");
-//                    if (active) {
-//                        active.parentElement.style.display = "block";
-//                    }
-                    //折叠目录
 
-                    // var label, domObj, main, divEle, gitalk;
-                    // label = vm.route.path.split("/").pop();
-                    // domObj = Docsify.dom;
-                    // main = domObj.getNode("#main");
-                    //
-                    // Array.apply(
-                    //     null,
-                    //     document.querySelectorAll("div.gitalk-container")
-                    // ).forEach(function (ele) {
-                    //     ele.remove();
-                    // });
-                    //
-                    // divEle = domObj.create("div");
-                    // divEle.id = "gitalk-container-" + label;
-                    // divEle.className = "gitalk-container";
-                    // divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
-                    // domObj.appendTo(domObj.find(".content"), divEle);
-                    // gitalk = new Gitalk(
-                    //     Object.assign(gitalkConfig, {id: !label ? "home" : label})
-                    // );
-                    // gitalk.render("gitalk-container-" + label);
                 });
             },
             function (hook,vm){
