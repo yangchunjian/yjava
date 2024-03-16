@@ -52,14 +52,8 @@
 48. 表现是自己的思考很重要，而不要说参考别的框架
 49. 面试官面的问题普遍是基于自己经历和招聘岗位的需要
 
-## 必问篇
-1. 自我介绍
-2. 离职原因
-3. 项目介绍
-4. 项目重点
-5. 项目难点
-6. 技术八股 
-7. 算法题
+## [必问篇](./mian-shi-bw)
+
 
 ## 注意篇
 1. 不要和面试官杠，无论谁对错
@@ -163,9 +157,9 @@
 
 **离职原因（left because）**
 
-    因为是做海外业务，疫情影响，业务被砍，几百号人受影响，我们小组的8个人也收到了影响；
+    因为疫情影响，业务被砍，几百号人受影响，我们小组的8个人也收到了影响；
     
-    Because we are doing overseas business, the epidemic has affected our business, and hundreds of people have been affected. Eight people in our group have also been affected;
+    Because the epidemic has affected our business, and hundreds of people have been affected. Eight people in our group have also been affected;
     
     
     因为我家人生病，需要照看，打算请一个多月假期，当时假期不是很好审批，加上自己的状态怕影响到工作，所以离开了；
