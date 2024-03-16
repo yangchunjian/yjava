@@ -24,17 +24,14 @@
 ![天坛](https://www.yjava.cn/imgs/me/me_4.jpeg)
 ![北京站](https://www.yjava.cn/imgs/me/me_5.jpeg)
 
-## 择偶要求
-
-    年龄：90后
-    
 ## 联系方式
 
 ### 微信号
 ![](https://www.yjava.cn/imgs/me/me_0.jpeg)
     
-### 微信群
-![](https://www.yjava.cn/imgs/me/me_00.jpeg)
+[//]: # (### 微信群)
+
+[//]: # (![]&#40;https://www.yjava.cn/imgs/me/me_00.jpeg&#41;)
 
     
 ---
