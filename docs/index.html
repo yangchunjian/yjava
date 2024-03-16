@@ -249,7 +249,22 @@
                     // );
                     // gitalk.render("gitalk-container-" + label);
                 });
-            }
+            },
+            function (hook,vm){
+                hook.beforeEach(function (content){
+                    if(vm.route.path.endsWith('.md')){
+                        return vm.encrypt.decode(content);
+                    }
+                    return content;
+                });
+            },
+            function (hook,vm){
+                hook.doneEach(function (){
+                    if(vm.route.path.endsWith('.md')){
+                        vm.encrypt.init();
+                    }
+                });
+            },
         ],
         // docsify-valine (defaults)
         Valine: {
