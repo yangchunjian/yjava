@@ -74,10 +74,6 @@
         requestHeaders: {
             'cache-control': 'max-age=600',
         },
-
-        encrypt: {
-            password: '1234'
-        },
         notFoundPage: '/summary/xue-xi',
 
         auto2top: true, //当路线改变时，滚动到屏幕的顶部。
@@ -93,6 +89,9 @@
         subMaxLevel: 2,//在自定义边栏中添加目录（TOC）。
         alias: {
             '/.*/_sidebar.md': '/_sidebar.md'
+        },
+        encrypt: {
+            password: '1234'
         },
         ga: 'UA-106147152-1',
 
