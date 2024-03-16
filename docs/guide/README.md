@@ -10,7 +10,7 @@
 
 ---
 
-[//]: # (### [☕️ 相亲交友]&#40;https://www.yjava.cn/#/me/&#41;)
+[//]: # (### [☕️ 介绍]&#40;https://www.yjava.cn/#/me/&#41;)
 ### [☕️ 程序员的青春不迷茫](https://www.yjava.cn/#/book/zi-zhu)
 
 ---
