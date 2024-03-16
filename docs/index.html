@@ -192,37 +192,23 @@
         formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
         plugins: [
             function (hook, vm) {
-                hook.beforeEach(function (html) {
-                    // var url = 'https://github.com/yangchunjian/yjava/blob/master/docs/' + vm.route.file
-                    // var editHtml = '[:memo: 编辑此页](' + url + ')\n'
-                    var editHtml = ''
-                    return html
+                hook.beforeEach(function (content) {
+                    if (vm.route.path.endsWith('.md')) {
+                        content = vm.encrypt.decode(content);
+                    }
+                    return content
                         + '\n----\n'
-                        + editHtml
+                        + ''
                         + '<i style="float: right">上次更新于: {docsify-updated} </i>'
 
                 });
                 hook.doneEach(function () {
-                    if(vm.route.path.endsWith('.md')){
+                    if (vm.route.path.endsWith('.md')) {
                         vm.encrypt.init();
                     }
                 });
             },
-            function (hook,vm){
-                hook.beforeEach(function (content){
-                    if(vm.route.path.endsWith('.md')){
-                        return vm.encrypt.decode(content);
-                    }
-                    return content;
-                });
-            },
-            function (hook,vm){
-                hook.doneEach(function (){
-                    if(vm.route.path.endsWith('.md')){
-                        vm.encrypt.init();
-                    }
-                });
-            },
+
         ],
         // docsify-valine (defaults)
         Valine: {
@@ -333,6 +319,7 @@
         ;
 
     }
+
     siteTime();
 </script>
 </body>
