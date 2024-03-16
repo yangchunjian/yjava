@@ -203,7 +203,9 @@
 
                 });
                 hook.doneEach(function () {
-
+                    if(vm.route.path.endsWith('.md')){
+                        vm.encrypt.init();
+                    }
                 });
             },
             function (hook,vm){
