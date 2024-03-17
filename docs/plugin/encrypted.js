@@ -1,7 +1,7 @@
 function clOK() {
     let inputElement = document.getElementById('pwd');
     if (lpwd != md5(inputElement.value)) {
-        alert("密码错误，可重新输入~");
+        alert("密码错误~");
         return false;
     }
     setWithExpiry(key, value, ttl);
