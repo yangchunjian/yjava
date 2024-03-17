@@ -1,6 +1,6 @@
 function clOK() {
     let inputElement = document.getElementById('pwd');
-    if (lpwd != inputElement.value) {
+    if (lpwd != md5(inputElement.value)) {
         alert("密码错误，可重新输入~");
         return false;
     }
@@ -43,4 +43,5 @@ const key = "pass";
 const value = "true";
 const ttl = 10000; // 10 秒
 // const ttl = 300000; // 5 分钟 (5 * 60 * 1000)
-const lpwd = 654321;
+const lpwd = "c33367701511b4f6020ec61ded352059"; //加密
+
