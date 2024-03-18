@@ -14,5 +14,7 @@
 - 算法题
 - ElasticSearch
 - Redis
+- Maven和Gradle
+- MQ
 - 
 
