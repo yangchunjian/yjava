@@ -25,12 +25,12 @@
     - [贷款总结](summary/dai-kuan.md)
     - [其它总结](summary/qi-ta.md)
 * **程序总结**
-    - [自著篇](book/zi-zhu.md)
-    - [算法篇](program/suan-fa.md)
-    - [设计篇](program/she-ji.md)
+    - [自著总结](book/zi-zhu.md)
+    - [算法总结](program/suan-fa.md)
+    - [设计总结](program/she-ji.md)
 * **目标总结**
-  - [积累总结](goal/ji-lei.md)
-  - [任务总结](goal/ren-wu.md)
+    - [积累总结](goal/ji-lei.md)
+    - [任务总结](goal/ren-wu.md)
 
     
     
