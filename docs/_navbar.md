@@ -1,8 +1,6 @@
 - [<span class="iconfont icon-shouye-xianxing"></span> 首页](/)
 - [<span class="iconfont icon-icon_fabu"></span> 指南](guide/)
 - [<span class="iconfont icon-wodeguanzhu"></span> 作者]()
-
-[//]: # (   - [☕️ 介绍]&#40;https://www.yjava.cn/#/me/&#41;)
    - [☕️ CSDN](https://yangchunjian.blog.csdn.net)
    - [☕️ 文档集合](https://www.yjava.cn/#/guide/)
    - [☕️ Java面试](https://javainterview.cn)
