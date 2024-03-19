@@ -265,10 +265,11 @@
                             setWithExpiry('lastVisitedUrl', h, ttl);
                         }
                         //url中有/encrypted的做过滤
-                        if (h.indexOf("/encrypted") !== -1) {
+                        if (h.indexOf("/encrypted") !== -1 && h.indexOf("/encrypted/README") === -1) {
                             let pass = getWithExpiry('pass');
                             if ("true" != pass) {
                                 window.location.href = "/#/encrypted/README";
+                                return "";
                             }
 
                         } else {
