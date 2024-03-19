@@ -261,7 +261,7 @@
                     hook.beforeEach(function (content) {
                         const h = window.location.href;
                         //保存不包括encrypted/README的url
-                        if(h.indexOf("encrypted/README")===-1){
+                        if (h.indexOf("encrypted/README") === -1) {
                             setWithExpiry('lastVisitedUrl', h, ttl);
                         }
                         //url中有/encrypted的做过滤
@@ -269,14 +269,14 @@
                             let pass = getWithExpiry('pass');
                             if ("true" != pass) {
                                 window.location.href = "/#/encrypted/README";
-                                return false;
                             }
 
+                        } else {
+                            return content
+                                + '<br/>'
+                                + '<i style="float: right">上次更新于: {docsify-updated} </i>'
                         }
 
-                        return content
-                            + '<br/>'
-                            + '<i style="float: right">上次更新于: {docsify-updated} </i>'
 
                     });
                     hook.doneEach(function () {
