@@ -295,7 +295,9 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
     
     I hope there will be a certain increase, for example, 20%~30%
 
-## 诉求篇
+## 期望篇
+
+也即是诉求篇
 
 一方面是自己的利益，一方面为公司创造利益
 
@@ -305,12 +307,37 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
 - 期望能为公司培养人才
 - 期望能为公司添砖加瓦
 
+- 期望待遇能有一定提升
+- 期望保障员工稳定性
+- 期望公司发展良好
+
+
 示例
 
     希望把自己的知识，应用到工作中，为公司创造更多的价值
 
-要突出对公司是有贡献和价值的，而不要只顾自己的利益
 
+
+    人才聚集地，认为是很好的机会
+    
+    A talent gathering place, which is considered a good opportunity
+
+
+    希望职级和title能合理和友善一些
+    
+    Hopes the rank and title can be reasonable and friendly
+
+
+    希望能有一定涨幅，例如20%~30%
+    
+    I hope there will be a certain increase, for example, 20%~30%
+
+
+    愿意服从公司的安排
+    
+    Willing to obey the company's arrangement
+
+要突出对公司是有贡献和价值的，而不要只顾自己的利益
 
 ## 阶段篇
 - 前期小公司试试水
@@ -371,26 +398,6 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
 - 介绍证书
 - 介绍管理
 
-诉求篇
-
-    人才聚集地，认为是很好的机会
-    
-    A talent gathering place, which is considered a good opportunity
-
-
-    希望职级和title能合理和友善一些
-    
-    Hopes the rank and title can be reasonable and friendly
-
-
-    希望能有一定涨幅，例如20%~30%
-    
-    I hope there will be a certain increase, for example, 20%~30%
-
-
-    愿意服从公司的安排
-    
-    Willing to obey the company's arrangement
 
 ## 项目篇
 - 项目用到的设计模式
