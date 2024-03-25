@@ -16,11 +16,6 @@
 
 package cn.yjava.web.demos.web;
 
-import lombok.Builder;
-
-/**
- * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
- */
 public interface UserMapper {
 
     public int insert(User user);

@@ -19,9 +19,6 @@ package cn.yjava.web.demos.web;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 
-/**
- * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
- */
 @Service
 public class UserServiceImpl implements UserService {
 
