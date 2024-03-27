@@ -14,7 +14,7 @@
     - [试题总结](summary/mian-shi-ti.md)
     - [求职总结](summary/qiu-zhi.md)
     - [技术总结](summary/ji-shu.md)
-    - [盲点总结](summary/mang-dian.md)
+    - [盲点总结](encrypted/mang-dian.md)
     - [情商总结](summary/qing-shang.md)
     <!--- [恋爱总结](summary/lian-ai.md)-->
     <!--- [校长总结](love/xiaozhang/ke-cheng.md)-->
