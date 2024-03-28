@@ -11,7 +11,7 @@
     - [业务总结](summary/ye-wu.md)
     - [职场总结](encrypted/zhi-chang.md)
     - [面试总结](summary/mian-shi.md)
-    - [试题总结](summary/mian-shi-ti.md)
+    - [试题总结](encrypted/mian-shi-ti.md)
     - [求职总结](summary/qiu-zhi.md)
     - [技术总结](summary/ji-shu.md)
     - [盲点总结](encrypted/mang-dian.md)
