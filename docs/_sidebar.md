@@ -7,7 +7,7 @@
     - [管理总结](summary/guan-li.md)
     - [顿悟总结](summary/dun-wu.md)
     - [疑问总结](summary/yi-wen.md)
-    - [工作总结](summary/gong-zuo.md)
+    - [工作总结](encrypted/gong-zuo.md)
     - [业务总结](summary/ye-wu.md)
     - [职场总结](encrypted/zhi-chang.md)
     - [面试总结](encrypted/mian-shi.md)
