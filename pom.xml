@@ -16,6 +16,7 @@
     <modules>
         <module>yjava-demo</module>
         <module>yjava-web</module>
+        <module>yjava-fx</module>
         <module>yjava-all</module>
     </modules>
 
