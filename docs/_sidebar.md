@@ -12,7 +12,7 @@
     - [职场总结](encrypted/zhi-chang.md)
     - [面试总结](encrypted/mian-shi.md)
     - [试题总结](encrypted/mian-shi-ti.md)
-    - [求职总结](summary/qiu-zhi.md)
+    - [求职总结](encrypted/ying-pin.md)
     - [技术总结](summary/ji-shu.md)
     - [盲点总结](encrypted/mang-dian.md)
     - [情商总结](encrypted/qing-shang.md)
