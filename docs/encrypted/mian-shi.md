@@ -52,13 +52,10 @@
 * 表现是自己的思考很重要，而不要说参考别的框架
 * 面试官面的问题普遍是基于自己经历和招聘岗位的需要
 
-## 必问篇
+[//]: # (## 必问篇)
 
-* [必问篇 :lock:](/encrypted/mian-shi-bw)
-
-
-[//]: # ([面试必问]&#40;../encrypted/mian-shi-bw.md ':include'&#41;)
-
+[//]: # ()
+[//]: # (* [必问篇 :lock:]&#40;/encrypted/mian-shi-bw&#41;)
 
 ## 注意篇
 * 不要和面试官杠，无论谁对错
@@ -294,50 +291,6 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
     希望有一定涨幅，例如20%~30%
     
     I hope there will be a certain increase, for example, 20%~30%
-
-## 期望篇
-
-也即是诉求篇
-
-一方面是自己的利益，一方面为公司创造利益
-
-* 期望有一定涨幅（20%~30%） 
-* 期望职级和title能合理和友善
-* 期望能为公司创造巨大价值
-* 期望能为公司培养人才
-* 期望能为公司添砖加瓦
-
-* 期望待遇能有一定提升
-* 期望保障员工稳定性
-* 期望公司发展良好
-
-
-示例
-
-    希望把自己的知识，应用到工作中，为公司创造更多的价值
-
-
-
-    人才聚集地，认为是很好的机会
-    
-    A talent gathering place, which is considered a good opportunity
-
-
-    希望职级和title能合理和友善一些
-    
-    Hopes the rank and title can be reasonable and friendly
-
-
-    希望能有一定涨幅，例如20%~30%
-    
-    I hope there will be a certain increase, for example, 20%~30%
-
-
-    愿意服从公司的安排
-    
-    Willing to obey the company's arrangement
-
-要突出对公司是有贡献和价值的，而不要只顾自己的利益
 
 ## 阶段篇
 * 前期小公司试试水
