@@ -269,29 +269,6 @@ STAR法则（情境(situation)、任务（task）、行动(action)、结果(resu
 
 
 
-**职业规划（career goal/plan）**
-
-    走技术路线，技术专家或架构师方向，遵从公司的技术体系
-    
-    Follow the technical route, technical experts or architects, and follow the company's technical system
-
-
-**目前薪资（Current Salary）**
-
-    目前50k * 15月，没有股票和期权
-    
-    At present, there are no stocks and options in 50k * 15
-    
-    目前34k * 15月，2000股票/4年，每年500股票
-    
-    At present, 34k * 15 months, 2000 shares/4 years, 500 shares per year
-
-**期望薪资（Salary Expectation）**
-
-    希望有一定涨幅，例如20%~30%
-    
-    I hope there will be a certain increase, for example, 20%~30%
-
 ## 阶段篇
 * 前期小公司试试水
 * 前期尽量远程
