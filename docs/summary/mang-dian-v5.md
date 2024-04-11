@@ -16,5 +16,7 @@
 - Redis
 - Maven和Gradle
 - MQ
+- Kafka rsr
+- mmap和sendfile区别
 - 
 
