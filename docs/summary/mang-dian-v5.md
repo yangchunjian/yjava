@@ -19,5 +19,11 @@
 * Kafka ISR（（In-Sync Replicas）：所有与Leader保持一定程度同步的副本）
 * mmap和sendfile区别
 * 前端MVC和MVVM
-*  
+* 微服务和分布式区别
+* es和数据库同步方式
+* 微服务怎么拆分
+* 微服务提升性能考虑哪方面
+* Reactor
+* 高并发调用怎么扩大连接数
+* 
 
