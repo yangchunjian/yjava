@@ -13,6 +13,7 @@
     - [面试总结](encrypted/mian-shi.md)
     - [必问总结](encrypted/mian-shi-bw.md)
     - [试题总结](encrypted/mian-shi-ti.md)
+    - [考试总结](encrypted/kao-shi.md)
     - [应聘总结](encrypted/ying-pin.md)
     - [技术总结](summary/ji-shu.md)
     - [盲点总结](encrypted/mang-dian.md)
