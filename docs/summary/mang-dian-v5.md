@@ -26,5 +26,8 @@
 * Reactor
 * 高并发调用怎么扩大连接数
 * mysql慢查询
+* shiro
+* 服务安全SpringSecurity
+* Kafka之间怎么通讯
 * 
 
