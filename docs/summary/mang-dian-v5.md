@@ -30,5 +30,12 @@
 * 服务安全SpringSecurity
 * Kafka之间怎么通讯
 * 虚拟线程和Java线程和协程
+* SpringCloud组件，bus和gateway区别
+* 微服务怎么拆分
+* MATLAB
+* 运筹学
+* 线性规划
+* erp系统
+* 爬虫技术
 * 
 
