@@ -4,7 +4,7 @@
     - [架构总结](summary/jia-gou.md)
     <!--- [规约总结](summary/gui-yue.md)-->
     - [编码总结](summary/bian-ma.md)
-    - [管理总结](summary/guan-li.md)
+    - [管理总结](encrypted/guan-li.md)
     - [顿悟总结](summary/dun-wu.md)
     - [疑问总结](summary/yi-wen.md)
     - [工作总结](encrypted/gong-zuo.md)
