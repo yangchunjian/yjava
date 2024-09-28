@@ -1,5 +1,7 @@
 # 算法总结
 
+## [算法库](https://javainterview.cn)
+
 ## 排序算法
 
 ### 快速排序
