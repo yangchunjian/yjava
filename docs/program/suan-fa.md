@@ -1,6 +1,6 @@
 # 算法总结
 
-## [算法库](https://javainterview.cn)
+## [算法库](https://javainterview.cn/algorithm/)
 
 ## 排序算法
 
