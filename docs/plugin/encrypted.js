@@ -15,8 +15,7 @@ function clClean() {
     document.getElementById('pwd').value="";
 }
 function clBack() {
-    let url = getWithExpiry("visibleUrl");
-    console.log("1url="+url);
+    let url = getItem("visibleUrl");
     if (url == null) {
         url = "/";
     }
@@ -32,6 +31,12 @@ function setWithExpiry(key, value, ttl) {
         expiry: now.getTime() + ttl,
     };
     localStorage.setItem(key, JSON.stringify(item));
+}
+function setItem(key, value) {
+    localStorage.setItem(key, value);
+}
+function getItem(key) {
+    return localStorage.getItem(key);
 }
 
 // 获取 localStorage 项，检查其是否过期

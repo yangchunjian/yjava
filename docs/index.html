@@ -287,6 +287,9 @@
                         if (h.indexOf("encrypted/README") === -1) {
                             setWithExpiry('lastVisitedUrl', h, ttl);
                         }
+                        if(h.indexOf("encrypted") === -1){
+                            setItem('visibleUrl', h);
+                        }
                         //url中有/encrypted的做过滤
                         if (h.indexOf("/encrypted") !== -1 && h.indexOf("/encrypted/README") === -1) {
                             let pass = getWithExpiry('pass');
@@ -294,10 +297,7 @@
                                 window.location.href = "/#/encrypted/README";
                                 return "";
                             }
-                            setWithExpiry('visibleUrl', h, ttl);
                         } else {
-                            setWithExpiry('visibleUrl', h, ttl);
-
                             return content
                                 + '<br/>'
                                 + '<i style="float: right">上次更新于: {docsify-updated} </i>'
@@ -306,7 +306,6 @@
 
                     });
                     hook.doneEach(function () {
-
 
                     });
                 },
