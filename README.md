@@ -1,8 +1,7 @@
 # 文档集合
 
-> _持续更新中~_
-
----
+> [!NOTE]
+> 持续更新中~
 
 ## [首页](https://www.yjava.cn/)
 ## [指南](https://www.yjava.cn/#/guide/)
