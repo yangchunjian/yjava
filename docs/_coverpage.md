@@ -18,3 +18,6 @@
 [️微信号](https://www.yjava.cn/imgs/dearlocation.jpeg)
 [️公众号](https://www.yjava.cn/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
 
+<!-- 背景色 -->
+
+[//]: # (![color]&#40;#fff&#41;)
