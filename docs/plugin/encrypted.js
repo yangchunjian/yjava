@@ -14,6 +14,14 @@ function clOK() {
 function clClean() {
     document.getElementById('pwd').value="";
 }
+function clBack() {
+    let url = getWithExpiry("visibleUrl");
+    console.log("1url="+url);
+    if (url == null) {
+        url = "/";
+    }
+    window.location.href = url;
+}
 
 // 设置带有过期时间的 localStorage 项
 function setWithExpiry(key, value, ttl) {

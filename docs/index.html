@@ -294,8 +294,10 @@
                                 window.location.href = "/#/encrypted/README";
                                 return "";
                             }
-
+                            setWithExpiry('visibleUrl', h, ttl);
                         } else {
+                            setWithExpiry('visibleUrl', h, ttl);
+
                             return content
                                 + '<br/>'
                                 + '<i style="float: right">上次更新于: {docsify-updated} </i>'
