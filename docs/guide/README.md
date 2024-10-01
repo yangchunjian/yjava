@@ -1,8 +1,7 @@
 # 指南
 
+[](../pub/head.md ':include')
 
-> [!NOTE]
-> 文档集合持续更新中~
 
 * [☕️ 思想总结](https://www.yjava.cn/#/summary/)
 * [☕️ 程序总结](https://www.yjava.cn/#/program/)

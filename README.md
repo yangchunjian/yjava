@@ -1,7 +1,6 @@
 # 文档集合
 
-> [!NOTE]
-> 文档集合持续更新中~
+[](pub/head.md ':include')
 
 ## [首页](https://www.yjava.cn/)
 ## [指南](https://www.yjava.cn/#/guide/)
