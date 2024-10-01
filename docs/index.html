@@ -165,8 +165,8 @@
             ga: 'UA-106147152-1',
 
             footer: {
-                copy: '<div class = "over" >完结</div><br/><span id="sitetime"></span>&nbsp;&nbsp;<span>Copyright &copy; 2019 - 至今</span>&nbsp;&nbsp;',
-                auth: '<span><a href="https://www.yjava.cn/" target="_blank">🏷️ 文档集合 </a> 积沙成塔！</span>',
+                copy: '<div class = "over" >完结</div><br/><span>Copyright &copy; 2019 - 至今</span>&nbsp;&nbsp;',
+                auth: '<span><a href="https://www.yjava.cn/" target="_blank">🏷️ 文档集合 </a> 积沙成塔！</span>&nbsp;&nbsp;<span id="sitetime"></span>',
                 pre: '',
                 style: '',
                 // style: 'text-align: left;',
@@ -390,7 +390,7 @@
             var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
             let time = document.getElementById("sitetime");
             if (time != null) {
-                time.innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+                time.innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒。 ";
             }
             ;
 
