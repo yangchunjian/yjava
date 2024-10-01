@@ -156,9 +156,6 @@
 <div>
     <script>
         window.$docsify = {
-            'flexible-alerts': {
-                style: 'flat'
-            },
             // 其他配置项
             pagination: {
                 previousText: '上一页',
@@ -282,6 +279,9 @@
             formatUpdated: '{YYYY}-{MM}-{DD}',
             // formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
             plugins: [
+                'flexible-alerts', {
+                    style: 'flat' // 修改默认样式为 flat
+                },
                 function (hook, vm) {
                     hook.beforeEach(function (content) {
                         const h = window.location.href;

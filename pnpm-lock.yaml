@@ -1,0 +1,41 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  docsify-pagination:
+    specifier: ^2.10.1
+    version: 2.10.1
+
+packages:
+
+  /component-closest@1.0.1:
+    resolution: {integrity: sha512-1rpXfxA9UK1zChrPxhvBUBfpPKxMRh/YkE4k0W4VaVCyqc7+r0p59kUjA5UBH+yN/LNOrzYqN49MshTccuR+9w==}
+    dependencies:
+      component-matches-selector: 0.1.7
+    dev: false
+
+  /component-matches-selector@0.1.7:
+    resolution: {integrity: sha512-Yb2+pVBvrqkQVpPaDBF0DYXRreBveXJNrpJs9FnFu8PF6/5IIcz5oDZqiH9nB5hbD2/TmFVN5ZCxBzqu7yFFYQ==}
+    dependencies:
+      component-query: 0.0.3
+      global-object: 1.0.0
+    dev: false
+
+  /component-query@0.0.3:
+    resolution: {integrity: sha512-VgebQseT1hz1Ps7vVp2uaSg+N/gsI5ts3AZUSnN6GMA2M82JH7o+qYifWhmVE/e8w/H48SJuA3nA9uX8zRe95Q==}
+    dev: false
+
+  /docsify-pagination@2.10.1:
+    resolution: {integrity: sha512-UkUERR+1X2GFVeZgiwHFzuxeCtpjwN5wev++4M605jYN1cnc9Lnu+BvxMDdrwATDUCY07IJcnMokc1oXdC8oqw==}
+    dependencies:
+      component-closest: 1.0.1
+      component-matches-selector: 0.1.7
+      component-query: 0.0.3
+    dev: false
+
+  /global-object@1.0.0:
+    resolution: {integrity: sha512-mSPSkY6UsHv6hgW0V2dfWBWTS8TnPnLx3ECVNoWp6rBI2Bg66VYoqGoTFlH/l7XhAZ/l+StYlntXlt87BEeCcg==}
+    dev: false
