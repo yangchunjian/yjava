@@ -7,18 +7,18 @@
     <meta name="description" content="文档集合">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="//www.yjava.cn/css/vue.css">
-    <link rel="stylesheet" href="//www.yjava.cn/css/yjava.css">
+    <link rel="stylesheet" href="/css/vue.css">
+    <link rel="stylesheet" href="/css/yjava.css">
     <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">-->
-    <!--<link rel="stylesheet" href="//www.yjava.cn/css/gitalk.css">-->
+    <!--<link rel="stylesheet" href="/css/gitalk.css">-->
     <!--<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">-->
-    <!--<link rel="stylesheet" href="//www.yjava.cn/unpkg/gitalk.css">-->
+    <!--<link rel="stylesheet" href="/unpkg/gitalk.css">-->
     <link rel="icon" href="./imgs/qin_200x200.jpeg">
 
     <!-- 自定义特色样式：by myself -->
-    <link rel="stylesheet" href="//www.yjava.cn/plugin/css/me.css">
+    <link rel="stylesheet" href="/plugin/css/me.css">
 
-    <link rel="stylesheet" href="//www.yjava.cn/css/iconfont.css">
+    <link rel="stylesheet" href="/css/iconfont.css">
 
     <script>
         var _hmt = _hmt || [];
@@ -154,12 +154,33 @@
         svg.markdown {
             display: none;
         }
+
+        .advertisement {
+            position: fixed;
+            right: 20px;
+            top: 100px;
+            width: 110px;
+            box-shadow: -1px 0 2px 0px #c5ebda;
+            padding: 10px;
+            z-index: 99;
+            background-color: #fff;
+            text-align: center;
+        }
     </style>
 
 </head>
 <body>
 <div id="app">🏃‍🏃‍🏃‍💨 加载中...</div>
-<div>
+
+<div class="aside_container">
+    <div class="advertisement">
+        <div class="Tencent_code">
+            <h4>公众号</h4>
+            <p style="font-size: 12px;">微信搜索UJava</p>
+            <img src="https://ujava.cn/logo/gzh.png"/>
+        </div>
+    </div>
+</div>
     <script>
         window.$docsify = {
             'flexible-alerts': {
@@ -196,14 +217,14 @@
 
             footer: {
                 copy: '<div class = "over" >完结</div><br/><!--<span>Copyright &copy; 2019 - 至今</span>&nbsp;&nbsp;-->',
-                auth: '<!--<span><a href="https://www.yjava.cn/" target="_blank">🏷️ 文档集合 </a> 积沙成塔！</span>&nbsp;&nbsp;<span id="sitetime"></span>-->',
+                auth: '<!--<span><a href="https:/" target="_blank">🏷️ 文档集合 </a> 积沙成塔！</span>&nbsp;&nbsp;<span id="sitetime"></span>-->',
                 pre: '',
                 style: '',
                 // style: 'text-align: left;',
             },//添加页脚
 
             name: '<p><svg width="18" height="18" viewBox="0 0 18 18"> <g clip-path="url(#clip0_499_684)"> <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a.9.9 0 0 1 .9.9v.9a.9.9 0 0 1-1.8 0V.9A.9.9 0 0 1 9 0zM2.636 2.636a.9.9 0 0 1 1.273 0l.636.636a.9.9 0 0 1-1.273 1.273l-.636-.636a.9.9 0 0 1 0-1.273zm12.728 0a.9.9 0 0 1 0 1.273l-.636.636a.9.9 0 0 1-1.273-1.273l.636-.636a.9.9 0 0 1 1.273 0zM4.5 9a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0zM0 9a.9.9 0 0 1 .9-.9h.9a.9.9 0 0 1 0 1.8H.9A.9.9 0 0 1 0 9zm15.3 0a.9.9 0 0 1 .9-.9h.9a.9.9 0 1 1 0 1.8h-.9a.9.9 0 0 1-.9-.9zm-1.845 4.455a.9.9 0 0 1 1.273 0l.636.636a.9.9 0 1 1-1.273 1.273l-.636-.636a.9.9 0 0 1 0-1.273zm-10.183 0a.9.9 0 1 1 1.273 1.273l-.636.636a.9.9 0 1 1-1.273-1.273l.636-.636zM9 15.3a.9.9 0 0 1 .9.9v.9a.9.9 0 0 1-1.8 0v-.9a.9.9 0 0 1 .9-.9z" fill="url(#paint0_linear_499_684)"></path> </g> <defs> <linearGradient id="paint0_linear_499_684" x2="18" y2="18" gradientUnits="userSpaceOnUse"> <stop stop-color="#FACC15"></stop> <stop offset="1" stop-color="#FA9D16"></stop> </linearGradient> <clipPath id="clip0_499_684"> <path fill="#fff" d="M0 0h18v18H0z"></path> </clipPath> </defs> </svg>文档集合</p>',
-            nameLink: 'https://www.yjava.cn/',
+            nameLink: 'https:/',
 
             search: {
                 noData: {
@@ -328,49 +349,49 @@
         }
 
     </script>
-    <script src="//www.yjava.cn/unpkg/docsify.min.js"></script>
+    <script src="/unpkg/docsify.min.js"></script>
     <!--<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>-->
     <script src="/unpkg/search.min.js"></script>
     <!--上一页、下一页-->
     <!--<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>-->
-    <script src="//www.yjava.cn/unpkg/docsify-pagination.min.js"></script>
+    <script src="/unpkg/docsify-pagination.min.js"></script>
     <!--评论-->
     <!--<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>-->
-    <!--<script src="//www.yjava.cn/unpkg/gitalk.min.js"></script>-->
+    <!--<script src="/unpkg/gitalk.min.js"></script>-->
 
     <!--复制code-->
     <!--<script src="//unpkg.com/docsify-copy-code@2"></script>-->
-    <script src="//www.yjava.cn/unpkg/docsify-copy-code.min.js"></script>
+    <script src="/unpkg/docsify-copy-code.min.js"></script>
     <!--计数-->
     <!--<script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>-->
-    <script src="//www.yjava.cn/unpkg/countable.min.js"></script>
+    <script src="/unpkg/countable.min.js"></script>
 
     <!--Java代码高亮-->
     <!--<script src="//unpkg.com/prismjs/components/prism-java.js"></script>-->
-    <script src="//www.yjava.cn/unpkg/prism-java.js"></script>
+    <script src="/unpkg/prism-java.js"></script>
     <!--<script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>-->
     <!--<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>-->
     <!--<script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>-->
-    <script src="//www.yjava.cn/unpkg/prism-markdown.min.js"></script>
+    <script src="/unpkg/prism-markdown.min.js"></script>
     <!--<script src="//unpkg.com/prismjs/components/prism-nginx.min.js"></script>-->
 
 
     <!-- PDFObject.js is a required dependency of this plugin -->
-    <script src="//www.yjava.cn/js/pdfobject.min.js"></script>
+    <script src="/js/pdfobject.min.js"></script>
     <!--<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>-->
     <!-- This is the source code of the pdf embed plugin -->
     <!--<script src="path-to-file/docsify-pdf-embed.js"></script>-->
     <!-- or use this if you are not hosting the file yourself -->
-    <script src="//www.yjava.cn/js/docsify-pdf-embed.js"></script>
+    <script src="/js/docsify-pdf-embed.js"></script>
     <!--markup高亮-->
-    <script src="//www.yjava.cn/js/prism-markup.min.js"></script>
+    <script src="/js/prism-markup.min.js"></script>
     <!--<script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>-->
 
     <!--评论-->
     <!--<script src='//unpkg.com/valine/dist/Valine.min.js'></script>-->
-    <script src='//www.yjava.cn/unpkg/Valine.min.js'></script>
+    <script src='/unpkg/Valine.min.js'></script>
 
-    <script src="//www.yjava.cn/unpkg/docsify-valine.min.js"></script>
+    <script src="/unpkg/docsify-valine.min.js"></script>
     <!-- 访问量统计 -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
@@ -381,11 +402,11 @@
         }
     </script>
     <!-- 添加页脚 -->
-    <script src="//www.yjava.cn/plugin/docsify-footer-enh.min.js"></script>
+    <script src="/plugin/docsify-footer-enh.min.js"></script>
     <script src="/plugin/encrypted.js"></script>
     <script src="/plugin/md5.js"></script>
     <!-- 图片缩放 -->
-    <script src="//www.yjava.cn/js/zoom-image.min.js"></script>
+    <script src="/js/zoom-image.min.js"></script>
     <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>-->
 
     <!-- 添加网站运行时间统计 -->
@@ -429,17 +450,28 @@
 
 <!--        siteTime();-->
 <!--    </script>-->
-
-    <script src="//www.yjava.cn/unpkg/docsify-plugin-flexible-alerts.min.js"></script>
-    <script>
-        docsifyBackTop = {
-            size: 32,           	// 数值，组件大小，默认值32。
-            bottom: 15,         	// 数值，组件底部偏移距离，默认值15。
-            right: 15,          	// 数值，组件右侧偏移距离，默认值15。
-            logo: '🔝',				// logo:字符串或svg矢量图代码，默认为svg代码图标。
-            bgColor: ''    	// 背景颜色，#fff、pink等，logo为svg图标时，不填。
-        };
+    <!-- 回到顶部功能 -->
+    <script src="/unpkg/jquery.js"></script>
+    <script src="/unpkg/jquery.goup.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 52,
+                locationOffset: 25,
+                //title: 'TOP',
+                titleAsText: true
+            });
+        });
     </script>
-    <script src="//www.yjava.cn/unpkg/docsify-backTop.min.js"></script>
+    <!-- 复制提醒 -->
+    <script src="/unpkg/plugin/sweetalert.min.js"></script>
+    <script>
+        document.body.oncopy = function () {
+            swal("复制成功 🎉",
+                "若要转载或引用请务必保留原文链接，并申明来源。",
+                "success"); };
+    </script>
+    <script src="/unpkg/docsify-plugin-flexible-alerts.min.js"></script>
 </body>
 </html>
