@@ -1,7 +1,7 @@
 # 指南
 
 
-> [!NOTE]
+> [!注意]
 > 文档集合持续更新中~
 
 * [☕️ 思想总结](https://www.yjava.cn/#/summary/)
