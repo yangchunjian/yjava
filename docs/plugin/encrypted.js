@@ -11,6 +11,9 @@ function clOK() {
     }
     window.location.href = url;
 }
+function clClean() {
+    document.getElementById('pwd').value="";
+}
 
 // 设置带有过期时间的 localStorage 项
 function setWithExpiry(key, value, ttl) {

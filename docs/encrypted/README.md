@@ -6,7 +6,10 @@
       </svg>
     </div>
     <div class="vp-decrypt-input"><input id="pwd" type="password" placeholder="输入密码"></div>
-    <button type="button" class="vp-decrypt-submit" onclick="clOK()">OK</button>
+    <button type="button" class="vp-decrypt-submit" onclick="clOK()">确认</button>
+    <button type="button" class="vp-decrypt-submit-clean" onclick="clClean()">清空</button>
+    <button type="button" class="vp-decrypt-submit-clean" onclick="window.history.go(-1);">返回</button>
   </div>
 </div>
+
 
