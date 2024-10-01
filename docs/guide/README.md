@@ -1,6 +1,8 @@
 # 指南
 
-> _持续更新中~_
+
+> [!NOTE]
+> 文档集合持续更新中~
 
 * [☕️ 思想总结](https://www.yjava.cn/#/summary/)
 * [☕️ 程序总结](https://www.yjava.cn/#/program/)
