@@ -142,6 +142,13 @@
 <div>
     <script>
         window.$docsify = {
+            // 其他配置项
+            pagination: {
+                previousText: '上一页',
+                nextText: '下一页',
+                crossChapter: true,
+                crossChapterText: true
+            },
             themeColor: '#339af0',
             requestHeaders: {
                 'cache-control': 'max-age=600',
@@ -165,7 +172,7 @@
             ga: 'UA-106147152-1',
 
             footer: {
-                copy: '<div class = "over" >完结</div><br/><span>Copyright &copy; 2019 - 至今</span>&nbsp;&nbsp;',
+                copy: '<div class = "over" >完结</div><br/><!--<span>Copyright &copy; 2019 - 至今</span>&nbsp;&nbsp;-->',
                 auth: '<span><a href="https://www.yjava.cn/" target="_blank">🏷️ 文档集合 </a> 积沙成塔！</span>&nbsp;&nbsp;<span id="sitetime"></span>',
                 pre: '',
                 style: '',
