@@ -163,18 +163,7 @@
     <script>
         window.$docsify = {
             'flexible-alerts': {
-                note: {
-                    label: "公告"
-                },
-                tip: {
-                    label: "提醒"
-                },
-                warning: {
-                    label: "警告"
-                },
-                attention: {
-                    label: "注意"
-                }
+                style: 'flat'
             },
             // 其他配置项
             pagination: {
@@ -338,17 +327,8 @@
             }
         }
 
-        docsifyBackTop = {
-            size: 32,           	// 数值，组件大小，默认值32。
-            bottom: 15,         	// 数值，组件底部偏移距离，默认值15。
-            right: 15,          	// 数值，组件右侧偏移距离，默认值15。
-            logo: '🔝',				// logo:字符串或svg矢量图代码，默认为svg代码图标。
-            bgColor: '\#2096ff'    	// 背景颜色，#fff、pink等，logo为svg图标时，不填。
-        };
     </script>
     <script src="//www.yjava.cn/unpkg/docsify.min.js"></script>
-    <script src="//www.yjava.cn/unpkg/docsify-plugin-flexible-alerts.min.js"></script>
-    <script src="//www.yjava.cn/unpkg/docsify-backTop.min.js"></script>
     <!--<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>-->
     <script src="/unpkg/search.min.js"></script>
     <!--上一页、下一页-->
@@ -449,5 +429,17 @@
 
 <!--        siteTime();-->
 <!--    </script>-->
+
+    <script src="//www.yjava.cn/unpkg/docsify-plugin-flexible-alerts.min.js"></script>
+    <script>
+        docsifyBackTop = {
+            size: 32,           	// 数值，组件大小，默认值32。
+            bottom: 15,         	// 数值，组件底部偏移距离，默认值15。
+            right: 15,          	// 数值，组件右侧偏移距离，默认值15。
+            logo: '🔝',				// logo:字符串或svg矢量图代码，默认为svg代码图标。
+            bgColor: ''    	// 背景颜色，#fff、pink等，logo为svg图标时，不填。
+        };
+    </script>
+    <script src="//www.yjava.cn/unpkg/docsify-backTop.min.js"></script>
 </body>
 </html>
