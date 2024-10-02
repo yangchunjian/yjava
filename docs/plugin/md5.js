@@ -199,7 +199,3 @@ function md5(string) {
   }
   return (md5_WordToHex(a) + md5_WordToHex(b) + md5_WordToHex(c) + md5_WordToHex(d)).toLowerCase();
 }
- 
-module.exports = {
-    md5: md5,
-}
