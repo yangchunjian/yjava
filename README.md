@@ -22,6 +22,6 @@
 ### [☕️ Java面试](https://javainterview.cn)
 ### [☕️ 亲位网](https://dearlocation.com)
 ### [☕️ 微信号](https://www.yjava.cn/imgs/dearlocation.jpeg)
-### [☕️ 公众号](https://www.yjava.cn/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
+### [☕️ 公众号](https://www.yjava.cn/imgs/gzh.png)
 
 ---

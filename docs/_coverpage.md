@@ -16,7 +16,7 @@
 [️Java面试](https://javainterview.cn)
 [架构设计](https://ujava.cn)
 [️微信号](https://www.yjava.cn/imgs/dearlocation.jpeg)
-[️公众号](https://www.yjava.cn/imgs/qrcode_for_gh_8756901e5b12_344.jpg)
+[️公众号](https://www.yjava.cn/imgs/gzh.png)
 
 <!-- 背景色 -->
 
