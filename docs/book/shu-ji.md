@@ -18,9 +18,9 @@ https://www.yjava.cn/book/Maven权威指南.pdf
 ```
 
 
-#### **Italian <span class="tab-badge">New!</span>**
+#### **持续更新 <span class="tab-badge">New!</span>**
 
-Ciao!
+[](pub/head.md ':include')
 
 <!-- tabs:end -->
 
