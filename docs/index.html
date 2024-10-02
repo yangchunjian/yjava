@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/plugin/css/me.css">
 
     <link rel="stylesheet" href="/css/iconfont.css">
+    <link rel="stylesheet" href="/plugin/css/share.min.css">
     <!-- alert -->
     <link rel="stylesheet" href="/plugin/css/sweetalert.min.css" type='text/css' media='all' />
 
@@ -236,7 +237,7 @@
             ga: 'UA-106147152-1',
 
             footer: {
-                copy: '<div class = "over" >完结</div><br/><!--<span>Copyright &copy; 2019 - 至今</span>&nbsp;&nbsp;-->',
+                copy: '<div class = "over" >完结</div><br/><div id="share-3" data-sites="weibo, qq, qzone"></div><!--<span>Copyright &copy; 2019 - 至今</span>&nbsp;&nbsp;-->',
                 auth: '<!--<span><a href="https:/" target="_blank">🏷️ 文档集合 </a> 积沙成塔！</span>&nbsp;&nbsp;<span id="sitetime"></span>-->',
                 pre: '',
                 style: '',
@@ -471,6 +472,9 @@
 <!--        siteTime();-->
 <!--    </script>-->
 
+    <!-- 分享 -->
+    <script src="/unpkg/social-share.min.js"></script>
+    <script src="/unpkg/qrcode.js"></script>
     <!-- 回到顶部功能 -->
     <script src="/unpkg/docsify-scroll-to-top.min.js"></script>
     <!-- 复制提醒 -->
@@ -480,6 +484,7 @@
             swal("复制成功 🎉",
                 "若要转载或引用请务必保留原文链接，并申明来源。",
                 "success"); };
+        socialShare('#share-3');
     </script>
     <script src="/unpkg/docsify-plugin-flexible-alerts.min.js"></script>
 </body>
