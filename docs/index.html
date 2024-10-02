@@ -185,6 +185,12 @@
 </div>
     <script>
         window.$docsify = {
+            scrollToTop: {
+                auto: true,
+                text: '🔝',
+                right: 15,
+                bottom: 15
+            },
             'flexible-alerts': {
                 style: 'flat',
                 note: {
@@ -464,20 +470,9 @@
 
 <!--        siteTime();-->
 <!--    </script>-->
+
     <!-- 回到顶部功能 -->
-    <script src="/unpkg/jquery.js"></script>
-    <script src="/unpkg/jquery.goup.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $.goup({
-                trigger: 100,
-                bottomOffset: 52,
-                locationOffset: 25,
-                //title: 'TOP',
-                titleAsText: true
-            });
-        });
-    </script>
+    <script src="/unpkg/docsify-scroll-to-top.min.js"></script>
     <!-- 复制提醒 -->
     <script src="/unpkg/sweetalert.min.js"></script>
     <script>
