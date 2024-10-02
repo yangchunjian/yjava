@@ -28,6 +28,7 @@
     - [其它总结](summary/qi-ta.md)
 * **程序总结**
     - [自著总结](book/zi-zhu.md)
+    - [书籍总结](book/shu-ji.md)
     - [算法总结](program/suan-fa.md)
     - [设计总结](program/she-ji.md)
 * **目标总结**
