@@ -78,7 +78,7 @@ https://www.yjava.cn/book/实战Java高并发程序设计.pdf
 https://www.yjava.cn/book/深入理解Java虚拟机(第2版)JVM高级特性与最佳实践.pdf
 ```
 
-#### **持续更新 <span class="tab-badge">New!</span>**
+#### **持续更新 <span class="tab-badge">新!</span>**
 
 [](../pub/head.md ':include')
 
