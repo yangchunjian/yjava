@@ -1,7 +1,7 @@
 # 设计总结
 
-## [架构设计](https://ujava.cn/)
- 
+> [!NOTE]
+> [架构设计](https://ujava.cn/)
 
 
 
