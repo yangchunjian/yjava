@@ -24,6 +24,7 @@
     <!--- [婚姻总结](summary/hun-yin.md)-->
     <!--- [拯救总结](summary/zheng-jiu.md)-->
     - [生活总结](encrypted/sheng-huo.md)
+    - [动画总结](encrypted/dong-hua.md)
     - [贷款总结](summary/dai-kuan.md)
     - [其它总结](summary/qi-ta.md)
 * **程序总结**
