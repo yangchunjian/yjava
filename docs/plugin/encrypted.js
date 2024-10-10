@@ -1,11 +1,23 @@
 function clOK() {
     let inputElement = document.getElementById('pwd');
     if (lpwd != md5(inputElement.value)) {
-        alert("密码错误~");
+        swal("密码错误",
+            "",
+            "error");
         return false;
     }
     setWithExpiry(key, value, ttl);
     let url = getWithExpiry("lastVisitedUrl");
+    if (url == null) {
+        url = "/";
+    }
+    window.location.href = url;
+}
+function clClean() {
+    document.getElementById('pwd').value="";
+}
+function clBack() {
+    let url = getItem("visibleUrl");
     if (url == null) {
         url = "/";
     }
@@ -21,6 +33,12 @@ function setWithExpiry(key, value, ttl) {
         expiry: now.getTime() + ttl,
     };
     localStorage.setItem(key, JSON.stringify(item));
+}
+function setItem(key, value) {
+    localStorage.setItem(key, value);
+}
+function getItem(key) {
+    return localStorage.getItem(key);
 }
 
 // 获取 localStorage 项，检查其是否过期

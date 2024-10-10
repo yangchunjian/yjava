@@ -97,7 +97,7 @@ const PDF_MARGIN_BOTTOM = '5rem';
                         html += '<script>';
                         container_list.forEach(function(container){
                             var absolute_pdf_location = url_check(container['pdf_location']) ? container['pdf_location'] : build_absolute_path(container['pdf_location']);
-                            var view_location = "https://mozilla.github.io/pdf.js/web/viewer.html?file=" + absolute_pdf_location;
+                            var view_location = "https://yjava.cn/web/viewer.html?file=" + absolute_pdf_location;
                             var iframe_id = container['div_id'].concat('-iframe');
                             html += '\
 									document.getElementById("'+ container['div_id'] +'").innerHTML = \

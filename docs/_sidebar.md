@@ -5,17 +5,17 @@
     <!--- [规约总结](summary/gui-yue.md)-->
     - [编码总结](summary/bian-ma.md)
     - [管理总结](encrypted/guan-li.md)
-    - [顿悟总结](summary/dun-wu.md)
-    - [疑问总结](summary/yi-wen.md)
+    - [顿悟总结](encrypted/dun-wu.md)
+    - [疑问总结](encrypted/yi-wen.md)
     - [工作总结](encrypted/gong-zuo.md)
-    - [业务总结](summary/ye-wu.md)
+    - [业务总结](encrypted/ye-wu.md)
     - [职场总结](encrypted/zhi-chang.md)
     - [面试总结](encrypted/mian-shi.md)
     - [必问总结](encrypted/mian-shi-bw.md)
     - [试题总结](encrypted/mian-shi-ti.md)
     - [考试总结](encrypted/kao-shi.md)
     - [应聘总结](encrypted/ying-pin.md)
-    - [技术总结](summary/ji-shu.md)
+    - [技术总结](encrypted/ji-shu.md)
     - [盲点总结](encrypted/mang-dian.md)
     - [情商总结](encrypted/qing-shang.md)
     <!--- [恋爱总结](summary/lian-ai.md)-->
@@ -29,6 +29,7 @@
     - [其它总结](summary/qi-ta.md)
 * **程序总结**
     - [自著总结](book/zi-zhu.md)
+    - [书籍总结](book/shu-ji.md)
     - [算法总结](program/suan-fa.md)
     - [设计总结](program/she-ji.md)
 * **目标总结**
