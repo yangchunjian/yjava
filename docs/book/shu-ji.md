@@ -78,6 +78,16 @@ https://yjava.cn/book/实战Java高并发程序设计.pdf
 https://yjava.cn/book/深入理解Java虚拟机(第2版)JVM高级特性与最佳实践.pdf
 ```
 
+#### **富爸爸穷爸爸**
+```pdf
+https://yjava.cn/book/富爸爸穷爸爸.pdf
+```
+
+#### **深入理解Java虚拟机:JVM高级特性与最佳实践(第3版)周志明**
+```pdf
+https://yjava.cn/book/深入理解Java虚拟机:JVM高级特性与最佳实践(第3版)周志明.pdf
+```
+
 #### **持续更新 <span class="tab-badge">新!</span>**
 
 [](../pub/head.md ':include')
