@@ -9,3 +9,5 @@
 
 ## [常见问题3](encrypted/xiang-mu-t3.md)
 
+## [常见问题4](encrypted/xiang-mu-t4.md)
+
