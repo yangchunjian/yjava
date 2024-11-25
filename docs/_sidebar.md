@@ -5,7 +5,9 @@
     <!--- [规约总结](summary/gui-yue.md)-->
     - [编码总结](summary/bian-ma.md)
     - [管理总结](encrypted/guan-li.md)
+    - [项目总结](encrypted/xiang-mu.md)
     - [顿悟总结](encrypted/dun-wu.md)
+    - [人性总结](encrypted/ren-xing.md)
     - [疑问总结](encrypted/yi-wen.md)
     - [工作总结](encrypted/gong-zuo.md)
     - [业务总结](encrypted/ye-wu.md)
