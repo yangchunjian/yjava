@@ -11,3 +11,5 @@
 
 ## [常见问题4](encrypted/xiang-mu-t4.md)
 
+## [常见问题5](encrypted/xiang-mu-t5.md)
+
