@@ -10,6 +10,7 @@
     - [人性总结](encrypted/ren-xing.md)
     - [疑问总结](encrypted/yi-wen.md)
     - [工作总结](encrypted/gong-zuo.md)
+    - [标点总结](encrypted/biao-dian.md)
     - [业务总结](encrypted/ye-wu.md)
     - [职场总结](encrypted/zhi-chang.md)
     - [面试总结](encrypted/mian-shi.md)
