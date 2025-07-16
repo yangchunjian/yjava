@@ -21,6 +21,7 @@
     - [技术总结](encrypted/ji-shu.md)
     - [盲点总结](encrypted/mang-dian.md)
     - [情商总结](encrypted/qing-shang.md)
+    - [关系总结](encrypted/guan-xi.md)
     <!--- [恋爱总结](summary/lian-ai.md)-->
     <!--- [校长总结](love/xiaozhang/ke-cheng.md)-->
     <!--- [糖糖总结](love/tangtang/zhi-bo.md)-->
